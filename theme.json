@@ -1,0 +1,194 @@
+{
+    "name": "SteamDeck U",
+    "version": "v1.0",
+    "author": "Tormak",
+    "target": "System-Wide",
+    "description": "This theme gives you full control over the colors of your steamdeck's keyboard, and inputs!",
+    "manifest_version": 1,
+    "inject": {
+        "shared.css": [
+            "QuickAccess", "SP", "MainMenu"
+        ] 
+    },
+    "patches": {
+        "Main UI": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Accent Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#82b74b",
+                    "css_variable": "test-main-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Keyboard": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#23262E",
+                    "css_variable": "keyboard-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Keys": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#0e141b",
+                    "css_variable": "bkey-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#ffffff",
+                    "css_variable": "bkey-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#ffffff",
+                    "css_variable": "selected-bkey-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#0e141b",
+                    "css_variable": "selected-bkey-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Function Keys": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#000000",
+                    "css_variable": "ext-key-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#ffffff",
+                    "css_variable": "ext-key-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#ffffff",
+                    "css_variable": "selected-ext-key-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#000000",
+                    "css_variable": "selected-ext-key-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Toggled Keys": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#000000",
+                    "css_variable": "key-toggle-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#1a9fff",
+                    "css_variable": "key-toggle-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Emoji Category BG",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#3D4450",
+                    "css_variable": "selected-emoji-cat-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Emoji Hover BG",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#8b929a",
+                    "css_variable": "emoji-focused-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Icon Keys": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#ffffff",
+                    "css_variable": "glif-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Selected Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#0e141b",
+                    "css_variable": "selected-glif-color",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        },
+        "Emoji keys": {
+            "type": "none",
+            "components": [
+                {
+                    "name": "Category Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#3D4450",
+                    "css_variable": "selected-emoji-cat-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                },
+                {
+                    "name": "Hover Background",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#8b929a",
+                    "css_variable": "emoji-focused-bg",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        }
+    }
+}
