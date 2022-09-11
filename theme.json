@@ -1,12 +1,12 @@
 {
     "name": "SteamDeck U",
-    "version": "v1.0",
+    "version": "v1.0.0",
     "author": "Tormak",
     "target": "System-Wide",
-    "description": "This theme gives you full control over the colors of your steamdeck's keyboard, and inputs!",
-    "manifest_version": 1,
+    "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs!",
+    "manifest_version": 2,
     "inject": {
-        "shared.css": [
+        "SteamDeckU.css": [
             "QuickAccess", "SP", "MainMenu"
         ] 
     },
