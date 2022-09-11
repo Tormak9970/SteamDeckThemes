@@ -12,6 +12,7 @@
     },
     "patches": {
         "Main UI": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -25,6 +26,7 @@
             ]
         },
         "Keyboard": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -38,6 +40,7 @@
             ]
         },
         "Keys": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -75,6 +78,7 @@
             ]
         },
         "Function Keys": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -112,6 +116,7 @@
             ]
         },
         "Toggled Keys": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -149,6 +154,7 @@
             ]
         },
         "Icon Keys": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
@@ -170,6 +176,7 @@
             ]
         },
         "Emoji keys": {
+            "default": "Yes",
             "type": "none",
             "components": [
                 {
