@@ -1,4 +1,6 @@
 :root {
+    --colored-toggles-main-color: var(--SDU-test-main-color) !important;
+
     --SDU-keyboard-bg: #23262E;
 
     --SDU-bkey-bg: #0e141b;

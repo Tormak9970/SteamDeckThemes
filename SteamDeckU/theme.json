@@ -6,7 +6,6 @@
     "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs! Colored inputs based of SuchMemeManySkill's Colored Toggles",
     "manifest_version": 2,
     "inject": {
-        "color-toggles.css": [ "QuickAccess", "SP", "MainMenu" ],
         "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
     },
     "patches": {
@@ -223,6 +222,11 @@
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
+        }
+    },
+    "dependencies": {
+        "Colored Toggles": {
+            "Theme Color": "orange"
         }
     }
 }
