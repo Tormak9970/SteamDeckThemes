@@ -5,11 +5,7 @@
     "target": "System-Wide",
     "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs!",
     "manifest_version": 2,
-    "inject": {
-        "shared.css": [
-            "QuickAccess", "SP", "MainMenu"
-        ] 
-    },
+    "inject": { "shared.css": [ "QuickAccess", "SP", "MainMenu" ] },
     "patches": {
         "Main UI": {
             "type": "checkbox",
