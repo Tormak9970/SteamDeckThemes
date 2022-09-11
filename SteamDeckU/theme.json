@@ -23,7 +23,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#82b74b",
-                    "css_variable": "test-main-color",
+                    "css_variable": "SDU-test-main-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -41,7 +41,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#23262E",
-                    "css_variable": "keyboard-bg",
+                    "css_variable": "SDU-keyboard-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -59,7 +59,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#0e141b",
-                    "css_variable": "bkey-bg",
+                    "css_variable": "SDU-bkey-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -67,7 +67,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#ffffff",
-                    "css_variable": "bkey-color",
+                    "css_variable": "SDU-bkey-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -75,7 +75,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#ffffff",
-                    "css_variable": "selected-bkey-bg",
+                    "css_variable": "SDU-selected-bkey-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -83,7 +83,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#0e141b",
-                    "css_variable": "selected-bkey-color",
+                    "css_variable": "SDU-selected-bkey-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -101,7 +101,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#000000",
-                    "css_variable": "ext-key-bg",
+                    "css_variable": "SDU-ext-key-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -109,7 +109,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#ffffff",
-                    "css_variable": "ext-key-color",
+                    "css_variable": "SDU-ext-key-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -117,7 +117,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#ffffff",
-                    "css_variable": "selected-ext-key-bg",
+                    "css_variable": "SDU-selected-ext-key-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -125,7 +125,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#000000",
-                    "css_variable": "selected-ext-key-color",
+                    "css_variable": "SDU-selected-ext-key-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -143,7 +143,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#000000",
-                    "css_variable": "key-toggle-color",
+                    "css_variable": "SDU-key-toggle-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -151,7 +151,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#1a9fff",
-                    "css_variable": "key-toggle-bg",
+                    "css_variable": "SDU-key-toggle-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -159,7 +159,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#3D4450",
-                    "css_variable": "selected-emoji-cat-bg",
+                    "css_variable": "SDU-selected-emoji-cat-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -167,7 +167,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#8b929a",
-                    "css_variable": "emoji-focused-bg",
+                    "css_variable": "SDU-emoji-focused-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -185,7 +185,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#ffffff",
-                    "css_variable": "glif-color",
+                    "css_variable": "SDU-glif-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -193,7 +193,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#0e141b",
-                    "css_variable": "selected-glif-color",
+                    "css_variable": "SDU-selected-glif-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
@@ -211,7 +211,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#3D4450",
-                    "css_variable": "selected-emoji-cat-bg",
+                    "css_variable": "SDU-selected-emoji-cat-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 },
                 {
@@ -219,7 +219,7 @@
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#8b929a",
-                    "css_variable": "emoji-focused-bg",
+                    "css_variable": "SDU-emoji-focused-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
