@@ -15,9 +15,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -35,9 +33,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -55,9 +51,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -99,9 +93,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -143,9 +135,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -187,9 +177,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
@@ -215,9 +203,7 @@
             "type": "checkbox",
             "default": "No",
             "values": {
-                "Yes": {
-                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
-                },
+                "Yes": {},
                 "No": {}
             },
             "components": [
