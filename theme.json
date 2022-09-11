@@ -12,13 +12,19 @@
     },
     "patches": {
         "Main UI": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Accent Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#82b74b",
                     "css_variable": "test-main-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
