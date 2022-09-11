@@ -32,13 +32,19 @@
             ]
         },
         "Keyboard": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#23262E",
                     "css_variable": "keyboard-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -46,13 +52,19 @@
             ]
         },
         "Keys": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#0e141b",
                     "css_variable": "bkey-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -60,7 +72,7 @@
                 {
                     "name": "Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#ffffff",
                     "css_variable": "bkey-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -68,7 +80,7 @@
                 {
                     "name": "Selected Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#ffffff",
                     "css_variable": "selected-bkey-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -76,7 +88,7 @@
                 {
                     "name": "Selected Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#0e141b",
                     "css_variable": "selected-bkey-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -84,13 +96,19 @@
             ]
         },
         "Function Keys": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#000000",
                     "css_variable": "ext-key-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -98,7 +116,7 @@
                 {
                     "name": "Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#ffffff",
                     "css_variable": "ext-key-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -106,7 +124,7 @@
                 {
                     "name": "Selected Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#ffffff",
                     "css_variable": "selected-ext-key-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -114,7 +132,7 @@
                 {
                     "name": "Selected Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#000000",
                     "css_variable": "selected-ext-key-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -122,13 +140,19 @@
             ]
         },
         "Toggled Keys": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#000000",
                     "css_variable": "key-toggle-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -136,7 +160,7 @@
                 {
                     "name": "Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#1a9fff",
                     "css_variable": "key-toggle-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -144,7 +168,7 @@
                 {
                     "name": "Selected Emoji Category BG",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#3D4450",
                     "css_variable": "selected-emoji-cat-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -152,7 +176,7 @@
                 {
                     "name": "Emoji Hover BG",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#8b929a",
                     "css_variable": "emoji-focused-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -160,13 +184,19 @@
             ]
         },
         "Icon Keys": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#ffffff",
                     "css_variable": "glif-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -174,7 +204,7 @@
                 {
                     "name": "Selected Color",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#0e141b",
                     "css_variable": "selected-glif-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -182,13 +212,19 @@
             ]
         },
         "Emoji keys": {
-            "type": "none",
-            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess", "SP", "MainMenu"]
+                },
+                "No": {}
+            },
             "components": [
                 {
                     "name": "Category Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#3D4450",
                     "css_variable": "selected-emoji-cat-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
@@ -196,7 +232,7 @@
                 {
                     "name": "Hover Background",
                     "type": "color-picker",
-                    "on": "_",
+                    "on": "Yes",
                     "default": "#8b929a",
                     "css_variable": "emoji-focused-bg",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
