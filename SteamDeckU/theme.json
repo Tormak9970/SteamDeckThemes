@@ -22,7 +22,7 @@
                     "name": "Accent Color",
                     "type": "color-picker",
                     "on": "Yes",
-                    "default": "#82b74b",
+                    "default": "#1a9fff",
                     "css_variable": "SDU-test-main-color",
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
