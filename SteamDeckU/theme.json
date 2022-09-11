@@ -4,7 +4,7 @@
     "author": "Tormak",
     "target": "System-Wide",
     "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs! Colored inputs based of SuchMemeManySkill's Colored Toggles",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "inject": {
         "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
     },
