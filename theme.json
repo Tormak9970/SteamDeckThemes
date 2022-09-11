@@ -6,14 +6,14 @@
     "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs!",
     "manifest_version": 2,
     "inject": {
-        "SteamDeckU.css": [
+        "shared.css": [
             "QuickAccess", "SP", "MainMenu"
         ] 
     },
     "patches": {
         "Main UI": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Accent Color",
@@ -26,8 +26,8 @@
             ]
         },
         "Keyboard": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Background",
@@ -40,8 +40,8 @@
             ]
         },
         "Keys": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Background",
@@ -78,8 +78,8 @@
             ]
         },
         "Function Keys": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Background",
@@ -116,8 +116,8 @@
             ]
         },
         "Toggled Keys": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Color",
@@ -154,8 +154,8 @@
             ]
         },
         "Icon Keys": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Color",
@@ -176,8 +176,8 @@
             ]
         },
         "Emoji keys": {
-            "default": "Yes",
             "type": "none",
+            "values": { "_": { "shared.css": ["QuickAccess", "SP", "MainMenu"] } },
             "components": [
                 {
                     "name": "Category Background",
