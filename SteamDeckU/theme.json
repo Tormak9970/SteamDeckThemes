@@ -3,30 +3,12 @@
     "version": "v1.0.0",
     "author": "Tormak",
     "target": "System-Wide",
-    "description": "This theme gives you full control over the colors of your steamdeck's keyboard and inputs! Colored inputs based of SuchMemeManySkill's Colored Toggles",
+    "description": "This theme gives you full control over the colors of your steamdeck's keyboard!",
     "manifest_version": 3,
     "inject": {
         "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
     },
     "patches": {
-        "Main UI": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Accent Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#1a9fff",
-                    "css_variable": "SDU-test-main-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
-        },
         "Keyboard": {
             "type": "checkbox",
             "default": "No",
@@ -222,11 +204,6 @@
                     "tabs": ["QuickAccess", "SP", "MainMenu"]
                 }
             ]
-        }
-    },
-    "dependencies": {
-        "Colored Toggles": {
-            "Theme Color": "orange"
         }
     }
 }

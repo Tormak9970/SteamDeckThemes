@@ -1,6 +1,4 @@
 :root {
-    --colored-toggles-main-color: var(--SDU-test-main-color) !important;
-
     --SDU-keyboard-bg: #23262E;
 
     --SDU-bkey-bg: #0e141b;
@@ -28,57 +26,57 @@
 
 .DefaultTheme {
     /* General variables */
-    --SDU-background-color: var(--SDU-keyboard-bg);
+    --background-color: var(--SDU-keyboard-bg);
 
     /* Main Keyboard variables */
-    --SDU-key-focused-action-button-left-color: var(--SDU-selected-glif-color);
-    --SDU-key-focused-action-button-right-color: var(--SDU-selected-glif-color);
-    --SDU-key-color: var(--SDU-bkey-color);
-    --SDU-key-background-color: var(--SDU-bkey-bg);
-    --SDU-key-focused-color: var(--SDU-selected-bkey-color);
-    --SDU-key-focused-background-color: var(--SDU-selected-bkey-bg);
-    --SDU-key-meta-color: var(--SDU-meta-key-color);
-    --SDU-key-meta-background-color: var(--SDU-meta-key-bg);
+    --key-focused-action-button-left-color: var(--SDU-selected-glif-color);
+    --key-focused-action-button-right-color: var(--SDU-selected-glif-color);
+    --key-color: var(--SDU-bkey-color);
+    --key-background-color: var(--SDU-bkey-bg);
+    --key-focused-color: var(--SDU-selected-bkey-color);
+    --key-focused-background-color: var(--SDU-selected-bkey-bg);
+    --key-meta-color: var(--SDU-meta-key-color);
+    --key-meta-background-color: var(--SDU-meta-key-bg);
 
     /* Func Keys */
-    --SDU-key-tab-color: var(--SDU-ext-key-color);
-    --SDU-key-tab-background-color: var(--SDU-ext-key-bg);
-    --SDU-key-caps-color: var(--SDU-ext-key-color);
-    --SDU-key-caps-background-color: var(--SDU-ext-key-bg);
-    --SDU-key-shift-color: var(--SDU-ext-key-color);
-    --SDU-key-shift-background-color: var(--SDU-ext-key-bg);
-    --SDU-key-enter-color: var(--SDU-ext-key-color);
-    --SDU-key-enter-background-color: var(--SDU-ext-key-bg);
-    --SDU-key-enter-action-button-glyph-color: var(--SDU-selected-glif-color);
-    --SDU-key-backspace-color: var(--SDU-ext-key-color);
-    --SDU-key-backspace-background-color: var(--SDU-ext-key-bg);
-    --SDU-key-spacebar-color: var(--SDU-ext-key-color);
-    --SDU-key-spacebar-background-color: var(--SDU-selected-glif-color);
-    --SDU-key-spacer-background-color: var(--SDU-ext-key-bg);
+    --key-tab-color: var(--SDU-ext-key-color);
+    --key-tab-background-color: var(--SDU-ext-key-bg);
+    --key-caps-color: var(--SDU-ext-key-color);
+    --key-caps-background-color: var(--SDU-ext-key-bg);
+    --key-shift-color: var(--SDU-ext-key-color);
+    --key-shift-background-color: var(--SDU-ext-key-bg);
+    --key-enter-color: var(--SDU-ext-key-color);
+    --key-enter-background-color: var(--SDU-ext-key-bg);
+    --key-enter-action-button-glyph-color: var(--SDU-selected-glif-color);
+    --key-backspace-color: var(--SDU-ext-key-color);
+    --key-backspace-background-color: var(--SDU-ext-key-bg);
+    --key-spacebar-color: var(--SDU-ext-key-color);
+    --key-spacebar-background-color: var(--SDU-selected-glif-color);
+    --key-spacer-background-color: var(--SDU-ext-key-bg);
 
     /* Extended Key variables */
-    --SDU-key-extendedkey-background-color: var(--SDU-key-toggle-bg);
-    --SDU-key-extendedkey-color: var(--SDU-ext-key-color);
-    --SDU-key-extendedkey-focused-background-color: var(--SDU-ext-key-color);
-    --SDU-key-extendedkey-focused-color: var(--SDU-selected-glif-color);
-    --SDU-key-extendedkey-hover-background-color: var(--SDU-ext-key-color);
-    --SDU-key-extendedkey-hover-color: var(--SDU-selected-glif-color);
+    --key-extendedkey-background-color: var(--SDU-key-toggle-bg);
+    --key-extendedkey-color: var(--SDU-ext-key-color);
+    --key-extendedkey-focused-background-color: var(--SDU-ext-key-color);
+    --key-extendedkey-focused-color: var(--SDU-selected-glif-color);
+    --key-extendedkey-hover-background-color: var(--SDU-ext-key-color);
+    --key-extendedkey-hover-color: var(--SDU-selected-glif-color);
 
     /* Key Toggle variables */
-    --SDU-key-toggleon-background-color: var(--SDU-key-toggle-bg);
-    --SDU-key-toggleon-color: var(--SDU-bkey-color);
-    --SDU-key-toggleoneshot-color: var(--SDU-key-toggle-bg);
+    --key-toggleon-background-color: var(--SDU-key-toggle-bg);
+    --key-toggleon-color: var(--SDU-bkey-color);
+    --key-toggleoneshot-color: var(--SDU-key-toggle-bg);
 
     /* Emoji page variables */
-    --SDU-key-emoji-category-highlight-background-color: var(--SDU-selected-emoji-cat-bg);
-    --SDU-key-emoji-focused-background-color: var(--SDU-emoji-focused-bg);
+    --key-emoji-category-highlight-background-color: var(--SDU-selected-emoji-cat-bg);
+    --key-emoji-focused-background-color: var(--SDU-emoji-focused-bg);
 
     /* Mouse Pointer variables */
-    --SDU-key-touched-background-color: var(--SDU-selected-bkey-bg);
-    --SDU-key-touched-color: var(--SDU-key-toggle-color);
-    --SDU-key-pointer-stroke-color: var(--SDU-key-toggle-color);
-    --SDU-key-pointer-background-color: var(--SDU-key-toggle-bg);
-    --SDU-key-deadkey-background-color: var(--SDU-key-toggle-color);
-    --SDU-key-deadkeyinactive-color: var(--SDU-bkey-color);
-    --SDU-key-deadkeyactive-color: var(--SDU-key-toggle-bg);
+    --key-touched-background-color: var(--SDU-selected-bkey-bg);
+    --key-touched-color: var(--SDU-key-toggle-color);
+    --key-pointer-stroke-color: var(--SDU-key-toggle-color);
+    --key-pointer-background-color: var(--SDU-key-toggle-bg);
+    --key-deadkey-background-color: var(--SDU-key-toggle-color);
+    --key-deadkeyinactive-color: var(--SDU-bkey-color);
+    --key-deadkeyactive-color: var(--SDU-key-toggle-bg);
 }
