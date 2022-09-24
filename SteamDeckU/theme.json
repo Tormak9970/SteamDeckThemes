@@ -2,7 +2,7 @@
     "name": "SteamDeck U",
     "version": "v1.0.0",
     "author": "Tormak",
-    "target": "System-Wide",
+    "target": "Keyboard",
     "description": "This theme gives you full control over the colors of your steamdeck's keyboard!",
     "manifest_version": 3,
     "inject": {
