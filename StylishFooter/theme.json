@@ -1,0 +1,11 @@
+{
+  "name": "Stylish Footer",
+  "version": "v1.0.0",
+  "author": "Tormak",
+  "target": "System-Wide",
+  "description": "This theme adds flare to the footer!",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
+  }
+}

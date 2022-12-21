@@ -1,0 +1,24 @@
+#Footer {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 48px);
+}
+
+#Footer > div > div {
+  padding: 4px;
+  padding-right: 8px;
+  background: black;
+  border-radius: 16px;
+}
+
+#Footer > div:nth-child(3) {
+  padding: 0px 8px;
+}
+
+#Footer > div:nth-last-child(1), #Footer > div:nth-last-child(2) {
+  padding: 4px !important;
+  padding-right: 8px !important;
+  background: black;
+  border-radius: 16px;
+}
