@@ -4,7 +4,7 @@
   "author": "Tormak",
   "target": "System-wide",
   "description": "Adds a hue to the entire steam deck UI.",
-  "manifest_version": 3,
+  "manifest_version": 5,
   "inject": {
     "shared.css": [
       "QuickAccess",
@@ -13,18 +13,14 @@
     ]
   },
   "patches": {
-    "Keyboard": {
-      "type": "checkbox",
-      "default": "Yes",
-      "values": {
-        "Yes": {},
-        "No": {}
-      },
+    "System": {
+      "type": "none",
+      "values": { "_": {} },
       "components": [
         {
           "name": "Background",
           "type": "color-picker",
-          "on": "Yes",
+          "on": "_",
           "default": "#23262E",
           "css_variable": "HUED-color-fg",
           "tabs": [
