@@ -1,0 +1,48 @@
+/* Home General Styles */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+  background-color: #ACB2C947;
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background: radial-gradient(155.42% 100% at 0% 0%, #151f25 0 0%, #152533 100%);
+}
+
+.gamepadhome_TabbedContent_cE1Sa {
+  background: radial-gradient(155.42% 100% at 0% 0%, #21323d 0 0%, #162431 60%, #231a22 100%);
+}
+
+
+/* What's New Styles */
+.gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_EventInfo_6TGe7, .gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
+  background-color: #ACB2C947;
+}
+
+.recentlycompleted_RecentlyCompletedItem_3OC7i {
+  background: #23262e;
+}
+
+.recentlycompleted_BottomSection_3LyF6 {
+  background-color: rgba(61,68,80,.5);
+}
+
+
+/* Friends Styles */
+.gamepadhomefriends_FavoriteFriend_3SLpz:focus, .gamepadhomefriends_GoToFriends_MVc_6:focus {
+  background: #ACB2C924;
+}
+
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+  background: #ACB2C924;
+}
+
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+  background: #ACB2C924;
+  box-shadow: inset 0px 7px 10px rgb(0 0 0 / 15%);
+}
+
+.BasicUI .appactivityday_StoreGameCapsule_1OYOt {
+  background-color: unset;
+}
+
+
+/* Recommended Styles */
