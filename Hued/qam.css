@@ -1,9 +1,0 @@
-/* General Styles */
-.quickaccessmenu_QuickAccessMenu_V0cr- {
-  background: #0e141b;
-}
-
-/* Friends Styles */
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends.GamepadMode, .GamepadMode .FriendsListContent .friendlistListContainer .friendGroup > div {
-  border-top: 1px solid rgba(76,180,255,.3);
-}
