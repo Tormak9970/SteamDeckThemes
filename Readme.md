@@ -1,6 +1,6 @@
 # Show Download Status
 
-This theme adds an indicator to the library view to indicate if a game is installed or not.
+This theme adds an icon to the library view indicating if a game is installed or not.
 
 # SteamDeck U
 
