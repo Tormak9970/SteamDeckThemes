@@ -1,3 +1,7 @@
+# Show Download Status
+
+This theme adds an indicator to the library view to indicate if a game is installed or not.
+
 # SteamDeck U
 
 This theme gives you full control over the colors of your Steamdeck's keyboard!
