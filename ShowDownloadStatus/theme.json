@@ -1,0 +1,15 @@
+{
+  "name": "Show Download Status",
+  "version": "v1.0.0",
+  "author": "Tormak",
+  "target": "System-wide",
+  "description": "Displays each game's download status on the home page and in your library.",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "library"
+    ]
+  }
+}
