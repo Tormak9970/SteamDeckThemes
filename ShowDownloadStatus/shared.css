@@ -14,6 +14,10 @@
   padding: 4px;
 }
 
+.appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-.appportrait_BasicMode_3vi6S.Panel.Focusable.gpfocus.gpfocuswithin:only-child:before {
+  left: 1.5%;
+}
+
 .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm, .appportrait_LibraryItemBox_WYgDg.gpfocus .appportrait_UninstalledIcon_8YrRm {
   opacity: 1;
   background-color: #0008;
