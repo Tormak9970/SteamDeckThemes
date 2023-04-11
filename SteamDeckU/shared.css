@@ -77,10 +77,6 @@
   --key-deadkeyactive-color: var(--SDU-key-toggle-background);
 }
 
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
-  color: var(--SDU-key-toggle-color) !important;
-  background-color: var(--SDU-key-toggle-background) !important;
-}
 .DefaultTheme div[class*="virtualkeyboard_KeyboardKey"][class*="virtualkeyboard_Touched"] {
   color: var(--SDU-key-toggle-color) !important;
   background-color: var(--SDU-key-toggle-background) !important;
