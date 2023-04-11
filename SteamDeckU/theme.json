@@ -1,209 +1,203 @@
 {
-    "name": "SteamDeck U",
-    "version": "v1.0.0",
-    "author": "Tormak",
-    "target": "Keyboard",
-    "description": "This theme gives you full control over the colors of your steamdeck's keyboard!",
-    "manifest_version": 3,
-    "inject": {
-        "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
-    },
-    "patches": {
-        "Keyboard": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#23262E",
-                    "css_variable": "SDU-keyboard-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
+  "name": "SteamDeck U",
+  "version": "v2.0.0",
+  "author": "Tormak",
+  "target": "Keyboard",
+  "description": "This theme gives you full control over the colors of your steamdeck's keyboard!",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [
+      "QuickAccess",
+      "SP",
+      "MainMenu"
+    ]
+  },
+  "patches": {
+    "Keyboard": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {},
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Background",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#23262E",
+          "css_variable": "SDU-keyboard-background",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
         },
-        "Keys": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#0e141b",
-                    "css_variable": "SDU-bkey-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#ffffff",
-                    "css_variable": "SDU-bkey-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#ffffff",
-                    "css_variable": "SDU-selected-bkey-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#0e141b",
-                    "css_variable": "SDU-selected-bkey-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
+        {
+          "name": "Icon Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-icon-color",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
         },
-        "Function Keys": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#000000",
-                    "css_variable": "SDU-ext-key-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#ffffff",
-                    "css_variable": "SDU-ext-key-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#ffffff",
-                    "css_variable": "SDU-selected-ext-key-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#000000",
-                    "css_variable": "SDU-selected-ext-key-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
+        {
+          "name": "Selected Icon Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#0e141b",
+          "css_variable": "SDU-icon-color__selected",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
         },
-        "Toggled Keys": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#000000",
-                    "css_variable": "SDU-key-toggle-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#1a9fff",
-                    "css_variable": "SDU-key-toggle-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Emoji Category BG",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#3D4450",
-                    "css_variable": "SDU-selected-emoji-cat-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Emoji Hover BG",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#8b929a",
-                    "css_variable": "SDU-emoji-focused-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
+        {
+          "name": "Toggled Background Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#1a9fff",
+          "css_variable": "SDU-key-toggle-background",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
         },
-        "Icon Keys": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#ffffff",
-                    "css_variable": "SDU-glif-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Selected Color",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#0e141b",
-                    "css_variable": "SDU-selected-glif-color",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
-        },
-        "Emoji keys": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {},
-                "No": {}
-            },
-            "components": [
-                {
-                    "name": "Category Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#3D4450",
-                    "css_variable": "SDU-selected-emoji-cat-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                },
-                {
-                    "name": "Hover Background",
-                    "type": "color-picker",
-                    "on": "Yes",
-                    "default": "#8b929a",
-                    "css_variable": "SDU-emoji-focused-bg",
-                    "tabs": ["QuickAccess", "SP", "MainMenu"]
-                }
-            ]
+        {
+          "name": "Toggled Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-key-toggle-color",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
         }
+      ]
+    },
+    "Keys": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {},
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Background",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#0e141b",
+          "css_variable": "SDU-base-key-background",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-base-key-color",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Selected Background",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-base-key-background__selected",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Selected Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#0e141b",
+          "css_variable": "SDU-base-key-color__selected",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        }
+      ]
+    },
+    "Function Keys": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {},
+        "No": {}
+      },
+      "components": [
+        {
+          "name": "Background",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#000000",
+          "css_variable": "SDU-function-key-background",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-function-key-color",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Selected Background",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#ffffff",
+          "css_variable": "SDU-function-key-background__selected",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Selected Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#000000",
+          "css_variable": "SDU-function-key-color__selected",
+          "tabs": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+          ]
+        }
+      ]
     }
+  }
 }

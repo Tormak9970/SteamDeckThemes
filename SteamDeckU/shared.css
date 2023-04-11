@@ -1,82 +1,91 @@
 :root {
-    --SDU-keyboard-bg: #23262E;
+  --SDU-keyboard-background: #23262E;
+  --SDU-icon-color: #ffffff;
+  --SDU-icon-color__selected: #0e141b;
 
-    --SDU-bkey-bg: #0e141b;
-    --SDU-ext-key-bg: #000000;
-    --SDU-bkey-color: #ffffff;
-    --SDU-ext-key-color: #ffffff;
-    --SDU-glif-color: #ffffff;
+  --SDU-base-key-background: #0e141b;
+  --SDU-function-key-background: #000000;
+  --SDU-base-key-color: #ffffff;
+  --SDU-function-key-color: #ffffff;
 
-    --SDU-selected-bkey-bg: #ffffff;
-    --SDU-selected-ext-key-bg: #ffffff;
-    --SDU-selected-bkey-color: #0e141b;
-    --SDU-selected-ext-key-color: #000000;
-    --SDU-selected-glif-color: #0e141b;
+  --SDU-base-key-background__selected: #ffffff;
+  --SDU-function-key-background__selected: #ffffff;
+  --SDU-base-key-color__selected: #0e141b;
+  --SDU-function-key-color__selected: #000000;
 
-    --SDU-key-toggle-color: #000000;
-    --SDU-key-toggle-bg: #1a9fff;
+  --SDU-key-toggle-color: #ffffff;
+  --SDU-key-toggle-background: #1a9fff;
 
-    --SDU-emoji-focused-bg: #8b929a;
-    --SDU-selected-emoji-cat-bg: #3D4450;
-
-    --SDU-meta-key-bg: var(--SDU-ext-key-bg);
-    --SDU-meta-key-color: var(--SDU-ext-key-color);
+  --SDU-meta-key-background: var(--SDU-function-key-background);
+  --SDU-meta-key-color: var(--SDU-function-key-color);
 }
 
-
 .DefaultTheme {
-    /* General variables */
-    --background-color: var(--SDU-keyboard-bg);
+  /* General variables */
+  --background-color: var(--SDU-keyboard-background);
 
-    /* Main Keyboard variables */
-    --key-focused-action-button-left-color: var(--SDU-selected-glif-color);
-    --key-focused-action-button-right-color: var(--SDU-selected-glif-color);
-    --key-color: var(--SDU-bkey-color);
-    --key-background-color: var(--SDU-bkey-bg);
-    --key-focused-color: var(--SDU-selected-bkey-color);
-    --key-focused-background-color: var(--SDU-selected-bkey-bg);
-    --key-meta-color: var(--SDU-meta-key-color);
-    --key-meta-background-color: var(--SDU-meta-key-bg);
+  /* Main Keyboard variables */
+  --key-focused-action-button-left-color: var(--SDU-icon-color__selected);
+  --key-focused-action-button-right-color: var(--SDU-icon-color__selected);
+  --key-color: var(--SDU-base-key-color);
+  --key-background-color: var(--SDU-base-key-background);
+  --key-focused-color: var(--SDU-base-key-color__selected);
+  --key-focused-background-color: var(--SDU-base-key-background__selected);
+  --key-meta-color: var(--SDU-meta-key-color);
+  --key-meta-background-color: var(--SDU-meta-key-background);
 
-    /* Func Keys */
-    --key-tab-color: var(--SDU-ext-key-color);
-    --key-tab-background-color: var(--SDU-ext-key-bg);
-    --key-caps-color: var(--SDU-ext-key-color);
-    --key-caps-background-color: var(--SDU-ext-key-bg);
-    --key-shift-color: var(--SDU-ext-key-color);
-    --key-shift-background-color: var(--SDU-ext-key-bg);
-    --key-enter-color: var(--SDU-ext-key-color);
-    --key-enter-background-color: var(--SDU-ext-key-bg);
-    --key-enter-action-button-glyph-color: var(--SDU-selected-glif-color);
-    --key-backspace-color: var(--SDU-ext-key-color);
-    --key-backspace-background-color: var(--SDU-ext-key-bg);
-    --key-spacebar-color: var(--SDU-ext-key-color);
-    --key-spacebar-background-color: var(--SDU-selected-glif-color);
-    --key-spacer-background-color: var(--SDU-ext-key-bg);
+  /* Function Keys */
+  --key-tab-color: var(--SDU-function-key-color);
+  --key-tab-background-color: var(--SDU-function-key-background);
+  --key-caps-color: var(--SDU-function-key-color);
+  --key-caps-background-color: var(--SDU-function-key-background);
+  --key-shift-color: var(--SDU-function-key-color);
+  --key-shift-background-color: var(--SDU-function-key-background);
+  --key-enter-color: var(--SDU-function-key-color);
+  --key-enter-background-color: var(--SDU-function-key-background);
+  --key-enter-action-button-glyph-color: var(--SDU-icon-color__selected);
+  --key-backspace-color: var(--SDU-function-key-color);
+  --key-backspace-background-color: var(--SDU-function-key-background);
+  --key-spacebar-color: var(--SDU-function-key-color);
+  --key-spacebar-background-color: var(--SDU-icon-color__selected);
+  --key-spacer-background-color: var(--SDU-function-key-background);
 
-    /* Extended Key variables */
-    --key-extendedkey-background-color: var(--SDU-key-toggle-bg);
-    --key-extendedkey-color: var(--SDU-ext-key-color);
-    --key-extendedkey-focused-background-color: var(--SDU-ext-key-color);
-    --key-extendedkey-focused-color: var(--SDU-selected-glif-color);
-    --key-extendedkey-hover-background-color: var(--SDU-ext-key-color);
-    --key-extendedkey-hover-color: var(--SDU-selected-glif-color);
+  /* extendedkey Key variables */
+  --key-extendedkey-background-color: var(--SDU-key-toggle-background);
+  --key-extendedkey-color: var(--SDU-function-key-color);
+  --key-extendedkey-focused-background-color: var(--SDU-function-key-color);
+  --key-extendedkey-focused-color: var(--SDU-icon-color__selected);
+  --key-extendedkey-hover-background-color: var(--SDU-function-key-color);
+  --key-extendedkey-hover-color: var(--SDU-icon-color__selected);
 
-    /* Key Toggle variables */
-    --key-toggleon-background-color: var(--SDU-key-toggle-bg);
-    --key-toggleon-color: var(--SDU-bkey-color);
-    --key-toggleoneshot-color: var(--SDU-key-toggle-bg);
+  /* Key Toggle variables */
+  --key-toggleon-background-color: var(--SDU-key-toggle-background);
+  --key-toggleon-color: var(--SDU-base-key-color);
+  --key-toggleoneshot-color: var(--SDU-key-toggle-background);
 
-    /* Emoji page variables */
-    --key-emoji-category-highlight-background-color: var(--SDU-selected-emoji-cat-bg);
-    --key-emoji-focused-background-color: var(--SDU-emoji-focused-bg);
+  /* Emoji page variables */
+  --key-emoji-category-highlight-background-color: var(--SDU-function-key-background);
+  --key-emoji-focused-background-color: var(--SDU-base-key-background__selected);
 
-    /* Mouse Pointer variables */
-    --key-touched-background-color: var(--SDU-selected-bkey-bg);
-    --key-touched-color: var(--SDU-key-toggle-color);
-    --key-pointer-stroke-color: var(--SDU-key-toggle-color);
-    --key-pointer-background-color: var(--SDU-key-toggle-bg);
-    --key-deadkey-background-color: var(--SDU-key-toggle-color);
-    --key-deadkeyinactive-color: var(--SDU-bkey-color);
-    --key-deadkeyactive-color: var(--SDU-key-toggle-bg);
+  /* Mouse Pointer variables */
+  --key-touched-background-color: var(--SDU-base-key-background__selected);
+  --key-touched-color: var(--SDU-key-toggle-color);
+  --key-pointer-stroke-color: var(--SDU-key-toggle-color);
+  --key-pointer-background-color: var(--SDU-key-toggle-background);
+  --key-deadkey-background-color: var(--SDU-key-toggle-color);
+  --key-deadkeyinactive-color: var(--SDU-base-key-color);
+  --key-deadkeyactive-color: var(--SDU-key-toggle-background);
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+  color: var(--SDU-key-toggle-color) !important;
+  background-color: var(--SDU-key-toggle-background) !important;
+}
+.DefaultTheme div[class*="virtualkeyboard_KeyboardKey"][class*="virtualkeyboard_Touched"] {
+  color: var(--SDU-key-toggle-color) !important;
+  background-color: var(--SDU-key-toggle-background) !important;
+}
+
+div[class*="virtualkeyboard_KeyboardSpacer"] {
+  background-color: var(--SDU-function-key-background) !important;
 }
