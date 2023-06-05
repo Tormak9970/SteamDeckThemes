@@ -1,0 +1,35 @@
+.libraryhome_InnerContainer_2AUVZ,
+.libraryhome_LibraryHome_3Sb2o,
+.gamelistbar_Container_3x1Hk,
+.gamelistbar_GameListHomeAndSearch_2TKEa,
+.libraryhome_UpdatesContainer_17uEB,
+.appdetailsoverview_Container_27RcN,
+.appdetailsoverview_BackdropGlass_Jbe--,
+.appdetails_InnerContainer_1Svpj,
+.library_LibraryWindowDivider_276E6 {
+  background: var(--srcery-hard-black);
+}
+
+.gamelistsectionheader_Container_2sYIg {
+  background: var(--srcery-black);
+}
+.gamelistsectionheader_SectionHeaderContent_3cV3O .gamelistsectionheader_SectionName_2mZ8L {
+  color: var(--srcery-white);
+}
+
+.gamelistsectionheader_Container_2sYIg:hover {
+  background: var(--srcery-bright-black);
+}
+.gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
+  color: var(--srcery-bright-white);
+}
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
+  background: var(--srcery-bright-black);
+}
+
+
+.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
+  display: none;
+}

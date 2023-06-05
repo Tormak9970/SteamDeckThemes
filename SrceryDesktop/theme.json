@@ -1,0 +1,69 @@
+{
+  "name": "Srcery Desktop",
+  "description": "A color scheme for your Steam desktop app. See more at https://srcery.sh",
+  "author": "Tormak",
+  "version": "v1.0.0",
+  "manifest_version": 4,
+  "target": "System-Wide",
+  "inject": {
+    "shared.css": [ "SteamLibraryWindow|Steam" ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Library": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "library.css": [ "SteamLibraryWindow|Steam" ]
+        },
+        "No": {}
+      }
+    },
+    "Nav Bar": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "navbar.css": [ "SteamLibraryWindow|Steam" ]
+        },
+        "No": {}
+      }
+    },
+    "Download Bar": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "dlbar.css": [ "SteamLibraryWindow|Steam" ]
+        },
+        "No": {}
+      }
+    },
+    "Friends List": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "friends.css": [ "Friends List" ]
+        },
+        "No": {}
+      }
+    },
+    "Friends Chat": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "chat.css": [ "~about:blank?createflags=18&minwidth=400&minheight=400~" ]
+        },
+        "No": {}
+      }
+    },
+    "Font": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "font.css": [ "SteamLibraryWindow|Steam" ]
+        },
+        "No": {}
+      }
+    }
+  }
+}
