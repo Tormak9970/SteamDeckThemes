@@ -20,3 +20,7 @@ This theme adds a bit of flare to your Steamdeck's footer!
 # Hued
 
 This theme gives you control over the color scheme of your Steamdeck!
+
+# Colored Toggles Desktop
+
+Ported and expanded version of SuchMeme's Colored Toggles compatible with Desktop.

@@ -1,0 +1,87 @@
+{
+  "name": "Desktop Colored Toggles",
+  "version": "v1.0",
+  "author": "Tormak",
+  "target": "System-Wide",
+  "description": "Colors all inputs (buttons, toggles, icons, labels, and progress bars) to a chosen color.",
+  "inject": {
+    "shared.css": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+  },
+  "manifest_version": 3,
+  "patches": {
+    "Theme Color": {
+      "default": "Orange",
+      "type": "dropdown",
+      "values": {
+        "Red": {
+          "--colored-toggles-main-color": [ "red", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "black", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Orange": {},
+        "Yellow": {
+          "--colored-toggles-main-color": [ "yellow", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "black", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Green": {
+          "--colored-toggles-main-color": [ "green", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Lime": {
+          "--colored-toggles-main-color": [ "lime", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Blue": {
+          "--colored-toggles-main-color": [ "blue", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Indigo": {
+          "--colored-toggles-main-color": [ "indigo", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Magenta": {
+          "--colored-toggles-main-color": [ "magenta", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Gradient RGB": {
+          "--colored-toggles-main-color": [ "linear-gradient(138deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 0 0/100% 200%", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "black", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-static-color": [ "magenta", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-animation": [ "gradient 20s ease infinite forwards", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Gradient Deck": {
+          "--colored-toggles-main-color": [ "linear-gradient(138deg, #009fff, #ff1965, #b9b500)", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-static-color": [ "#009fff", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-animation": [ "gradient 20s ease infinite forwards", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Gray": {
+          "--colored-toggles-main-color": [ "grey", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "black", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "White": {
+          "--colored-toggles-main-color": [ "white", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ],
+          "--colored-toggles-friends-text-color": [ "black", "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Main Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#f00",
+          "css_variable": "colored-toggles-main-color",
+          "tabs": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        },
+        {
+          "name": "Text Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#000",
+          "css_variable": "colored-toggles-friends-text-color",
+          "tabs": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
+        }
+      ]
+    }
+  }
+}
