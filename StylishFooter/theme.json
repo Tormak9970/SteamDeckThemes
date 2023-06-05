@@ -10,7 +10,7 @@
   },
   "patches": {
     "Switch Like Home Fix": {
-      "type": "toggle",
+      "type": "checkbox",
       "default": "No",
       "values": {
         "Yes": {
@@ -20,7 +20,7 @@
       }
     },
     "Clean Game View Fix": {
-      "type": "toggle",
+      "type": "checkbox",
       "default": "No",
       "values": {
         "Yes": {
@@ -30,7 +30,7 @@
       }
     },
     "Minimal Lock Screen Fix": {
-      "type": "toggle",
+      "type": "checkbox",
       "default": "No",
       "values": {
         "Yes": {
