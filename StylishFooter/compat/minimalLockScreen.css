@@ -1,0 +1,4 @@
+div[class*="lockscreen_NumericButtonInput"],
+div[class*="lockscreen_Details"] div[class*="lockscreen_Indicators"] {
+  margin-bottom: 41px;
+}

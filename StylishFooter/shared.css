@@ -2,27 +2,36 @@
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
-  width: calc(100% - 48px);
+  width: calc(100% - 32px);
 }
 
-#Footer > div > div[class*="footer_Item"] {
+#Footer > div > div[class*="actionbuttonlegenditem_ActionButtonLegend"] {
   padding: 4px;
   padding-right: 8px;
   background: black;
   border-radius: 16px;
+  margin: 0px 10px;
 }
 
-#Footer > div > div[class*="footer_Item"]:nth-child(3) {
-  padding: 0px 8px;
+/* ? Fixes the layout issues on the home screen */
+.gamepadhome_TabbedContent_cE1Sa .gamepadtabbedpage_TabContentsScroll_1X4dt._TabContentsScroll.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollY_313lB.Panel.Focusable.gpfocuswithin {
+  scroll-padding-bottom: 77px !important;
+  padding-bottom: 77px !important;
+}
+.gamepadhome_TabbedContent_cE1Sa .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+  min-height: calc(100% + 41px);
 }
 
-#Footer > div > div[class*="footer_Item"]:nth-last-child(1), #Footer > div > div[class*="footer_Item"]:nth-last-child(2) {
-  padding: 4px !important;
-  padding-right: 8px !important;
-  background: black;
-  border-radius: 16px;
+/* ? Fixes the layout issues in the game info view */
+.basicappdetailssectionstyler_AppDetailsContainer_2-ns_ {
+  margin-top: 0px;
 }
 
-#Footer > div > div[class*="footer_Spacer"] {
-  padding: 0px !important;
+.basicappdetailssectionstyler_AppDetailsContainer_2-ns_ .gamepadtabbedpage_TabContentsScroll_1X4dt._TabContentsScroll.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollY_313lB.Panel.Focusable {
+  scroll-padding-bottom: 118px !important;
+  padding-bottom: 118px !important;
+}
+
+.smartscrollcontainer_ScrollToTopButton_1bCHN.smartscrollcontainer_Visible_2ZDSm {
+  margin-bottom: 41px;
 }
