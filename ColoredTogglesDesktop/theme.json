@@ -7,7 +7,7 @@
   "inject": {
     "shared.css": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
   },
-  "manifest_version": 3,
+  "manifest_version": 6,
   "patches": {
     "Theme Color": {
       "default": "Orange",
