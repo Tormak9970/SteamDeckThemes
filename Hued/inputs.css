@@ -13,8 +13,8 @@
 }
 
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-  background: var(--colored-toggles-main-color);
-  animation: var(--colored-toggles-animation);
+  background: var(--colored-toggles-desktop-main-color);
+  animation: var(--colored-toggles-desktop-animation);
 }
 
 

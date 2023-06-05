@@ -1,180 +1,180 @@
 :root {
   /* default should be #1a9fff */
-	--colored-toggles-main-color: orange;
-	--colored-toggles-static-color: var(--colored-toggles-main-color);
-	--colored-toggles-friends-text-color: black;
-	--colored-toggles-animation: none;
-	--gpColor-Blue: var(--colored-toggles-main-color) !important;
+	--colored-toggles-desktop-main-color: orange;
+	--colored-toggles-desktop-static-color: var(--colored-toggles-desktop-main-color);
+	--colored-toggles-desktop-friends-text-color: black;
+	--colored-toggles-desktop-animation: none;
+	--gpColor-Blue: var(--colored-toggles-desktop-main-color) !important;
 }
 
 /* ? Toggle that is on */
 .gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T .gamepaddialog_ToggleRail_2JtC3::before {
-	background: var(--colored-toggles-main-color) !important;
-	animation: var(--colored-toggles-animation) !important;
+	background: var(--colored-toggles-desktop-main-color) !important;
+	animation: var(--colored-toggles-desktop-animation) !important;
 }
 .gamepadslider_SliderTrack_Mq25N::before {
-  background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+  background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* Enabled tick of a slider with ticks below */
 div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 } 
 
 /* ? Library nav selected */
 .supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
-	color: var(--colored-toggles-main-color);
-  text-shadow: 0px 0px 1px var(--colored-toggles-main-color);
+	color: var(--colored-toggles-desktop-main-color);
+  text-shadow: 0px 0px 1px var(--colored-toggles-desktop-main-color);
 }
 .supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
-  background: var(--colored-toggles-main-color);
+  background: var(--colored-toggles-desktop-main-color);
 }
 
 /* ? Announcement icon */
 .titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi {
-  background-color: var(--colored-toggles-main-color);
-	color: var(--colored-toggles-friends-text-color);
+  background-color: var(--colored-toggles-desktop-main-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Play button on a game */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Play icon on a play button on a game */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX > svg {
-	fill: var(--colored-toggles-friends-text-color);
+	fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Text on a play button on a game */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX > .appactionbutton_ButtonText_33cnX {
-	color: var(--colored-toggles-friends-text-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Background of play selection button */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX:hover {
-  background: var(--colored-toggles-main-color);
+  background: var(--colored-toggles-desktop-main-color);
 }
 
 /* ? Icon of play selection button */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ > svg > polygon {
-  fill: var(--colored-toggles-friends-text-color);
+  fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Favorites star */
 .appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW.appdetailsplaysection_Favorited_2WaHZ.Focusable > svg > path {
-  fill: var(--colored-toggles-main-color) !important;
-  stroke: var(--colored-toggles-main-color) !important;
+  fill: var(--colored-toggles-desktop-main-color) !important;
+  stroke: var(--colored-toggles-desktop-main-color) !important;
 }
 
 /* ? Dropdown arrow */
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
-  fill: var(--colored-toggles-main-color);
+  fill: var(--colored-toggles-desktop-main-color);
 }
 
 /* ? Download button on a game */
 .appactionbutton_ButtonChild_2AzIX {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Download icon on the download button of a game */
 .appactionbutton_ButtonChild_2AzIX > svg path {
-	color: var(--colored-toggles-friends-text-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Text on the download button of a game */
 .appactionbutton_ButtonChild_2AzIX  > .appactionbutton_ButtonText_33cnX {
-	color: var(--colored-toggles-friends-text-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Background of download selection button */
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover {
-  background: var(--colored-toggles-main-color);
+  background: var(--colored-toggles-desktop-main-color);
 }
 
 /* ? Icon of download selection button */
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ > svg > polygon {
-  fill: var(--colored-toggles-friends-text-color);
+  fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? New to library text. */
 .appportrait_AppPortraitBanner_N8aJr {
-	background: var(--colored-toggles-main-color) !important; 
-	color: var(--colored-toggles-friends-text-color) !important;
-	animation: var(--colored-toggles-animation) !important;
+	background: var(--colored-toggles-desktop-main-color) !important; 
+	color: var(--colored-toggles-desktop-friends-text-color) !important;
+	animation: var(--colored-toggles-desktop-animation) !important;
 }
 
 /* ? Checkbox check */
 .DialogCheckbox.Active > svg path {
-  stroke: var(--colored-toggles-main-color) !important;
+  stroke: var(--colored-toggles-desktop-main-color) !important;
 }
 
 /* ? Drive Selection */
 .DesktopUI .installrequest_FolderOption_Oo5JP.installrequest_Active_gkgG- {
-  background: var(--colored-toggles-main-color);
-	color: var(--colored-toggles-friends-text-color);
+  background: var(--colored-toggles-desktop-main-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? General dialog buttons */
 button.DialogButton.Primary {
-  background: var(--colored-toggles-main-color);
-	color: var(--colored-toggles-friends-text-color);
+  background: var(--colored-toggles-desktop-main-color);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Progress bar at the bottom of installing games in the home menu. */
 .bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
-	--color-progress-bar-foreground: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	--color-progress-bar-foreground: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Reoder downloads drop position styling */
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
-	border: 2px dashed var(--colored-toggles-main-color);
+	border: 2px dashed var(--colored-toggles-desktop-main-color);
 }
 
 /* ? Download bar underneath the download text. */
 .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Continue download button on downloads screen. */
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:hover,
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:focus,
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
-	color: var(--colored-toggles-friends-text-color);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Download text above download bar. Animations and gradients seemingly unsupported */
 div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_State_2ns4w {
-	color: var(--colored-toggles-static-color);
+	color: var(--colored-toggles-desktop-static-color);
 }
 
 /* ? Download bar below download text*/
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 div {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 
 .downloads_Button_3oavR {
-	background: var(--colored-toggles-main-color);
-	animation: var(--colored-toggles-animation);
+	background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 .progressbar_Percent_2_0Jo {
-	animation: var(--colored-toggles-animation);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Achievement bar background */
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background-color: var(--colored-toggles-main-color);
+  background-color: var(--colored-toggles-desktop-main-color);
 }
