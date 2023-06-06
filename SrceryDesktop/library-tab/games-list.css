@@ -20,11 +20,20 @@
   background: var(--srcery-bright-black);
 }
 
+/* ? Accordion Icons */
+.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
+  stroke: var(--srcery-white);
+}
+
 /* ? Selected game */
 /* TODO */
 
 /* ? Game uninstalled color */
-/* TODO */
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
+  color: var(--srcery-xgray12);
+}
 
 /* ? Game installed color */
-/* TODO */
+.gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
+  color: var(--srcery-bright-white);
+}
