@@ -46,6 +46,7 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 }
 .supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
   background: var(--colored-toggles-desktop-main-color);
+  animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Announcement icon */
@@ -201,4 +202,5 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 /* ? Recent play icon */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4) {
   background: var(--colored-toggles-desktop-main-color);
+  animation: var(--colored-toggles-desktop-animation);
 }
