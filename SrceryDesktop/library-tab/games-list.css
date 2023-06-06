@@ -1,15 +1,4 @@
-.libraryhome_InnerContainer_2AUVZ,
-.libraryhome_LibraryHome_3Sb2o,
-.gamelistbar_Container_3x1Hk,
-.gamelistbar_GameListHomeAndSearch_2TKEa,
-.libraryhome_UpdatesContainer_17uEB,
-.appdetailsoverview_Container_27RcN,
-.appdetailsoverview_BackdropGlass_Jbe--,
-.appdetails_InnerContainer_1Svpj,
-.library_LibraryWindowDivider_276E6 {
-  background: var(--srcery-hard-black);
-}
-
+/* ? Accordion headers */
 .gamelistsectionheader_Container_2sYIg {
   background: var(--srcery-black);
 }
@@ -17,6 +6,7 @@
   color: var(--srcery-white);
 }
 
+/* ? Accordion bodies */
 .gamelistsectionheader_Container_2sYIg:hover {
   background: var(--srcery-bright-black);
 }
@@ -24,12 +14,17 @@
   color: var(--srcery-bright-white);
 }
 
+/* ? Selected accordion */
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
   background: var(--srcery-bright-black);
 }
 
+/* ? Selected game */
+/* TODO */
 
-.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
-  display: none;
-}
+/* ? Game uninstalled color */
+/* TODO */
+
+/* ? Game installed color */
+/* TODO */

@@ -6,51 +6,69 @@
   "manifest_version": 4,
   "target": "System-Wide",
   "inject": {
-    "shared.css": [ "SteamLibraryWindow|Steam" ]
+    "shared/index.css": [
+      "SteamLibraryWindow|Steam",
+      "Special Offer.*",
+      "https://store.steampowered.com/marketingmessages.*"
+    ],
+    "shared/tooltips.css": [
+      "SteamLibraryWindow|Steam",
+      "Special Offer.*",
+      "https://store.steampowered.com/marketingmessages.*"
+    ],
+    "shared/navbar.css": [ "SteamLibraryWindow|Steam" ],
+    "shared/root-nav.css": [ "SteamLibraryWindow|Steam", "*.Root.*" ],
+    "shared/super-nav.css": [ "SteamLibraryWindow|Steam", "*.Supernav.*" ],
+    "shared/interactables.css": [
+      "SteamLibraryWindow|Steam",
+      "Special Offer.*",
+      "https://store.steampowered.com/marketingmessages.*"
+    ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "Desktop Colored Toggles": {}
+  },
   "patches": {
-    "Library": {
+    "Library Tab": {
       "type": "checkbox",
       "values": {
         "Yes": {
-          "library.css": [ "SteamLibraryWindow|Steam" ]
+          "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+          "library-tab/game-shelf.css": [ "SteamLibraryWindow|Steam" ],
+          "library-tab/game-page.css": [ "SteamLibraryWindow|Steam" ],
+          "library-tab/collections.css": [ "SteamLibraryWindow|Steam" ],
+          "library-tab/games-list.css": [ "SteamLibraryWindow|Steam" ],
+          "library-tab/footer.css": [ "SteamLibraryWindow|Steam" ]
         },
         "No": {}
       }
     },
-    "Nav Bar": {
+    "Store Tab": {
       "type": "checkbox",
       "values": {
         "Yes": {
-          "navbar.css": [ "SteamLibraryWindow|Steam" ]
+          "store-tab/index.css": [ "SteamLibraryWindow|Steam" ]
         },
         "No": {}
       }
     },
-    "Download Bar": {
+    "Community Tab": {
       "type": "checkbox",
       "values": {
         "Yes": {
-          "dlbar.css": [ "SteamLibraryWindow|Steam" ]
+          "community-tab/index.css": [ "SteamLibraryWindow|Steam" ]
         },
         "No": {}
       }
     },
-    "Friends List": {
+    "Secondary Windows": {
       "type": "checkbox",
       "values": {
         "Yes": {
-          "friends.css": [ "Friends List" ]
-        },
-        "No": {}
-      }
-    },
-    "Friends Chat": {
-      "type": "checkbox",
-      "values": {
-        "Yes": {
-          "chat.css": [ "~about:blank?createflags=18&minwidth=400&minheight=400~" ]
+          "secondary-windows/special-offers.css": [
+            "Special Offer.*",
+            "https://store.steampowered.com/marketingmessages.*"
+          ]
         },
         "No": {}
       }

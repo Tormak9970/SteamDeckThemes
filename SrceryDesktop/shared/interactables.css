@@ -1,0 +1,29 @@
+/* ? Buttons */
+button.DialogButton,
+.image_Btn_3YohC.Panel.Focusable {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+}
+button.DialogButton:hover,
+.image_Btn_3YohC.Panel.Focusable:hover {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+button.DialogButton:enabled:active,
+button.DialogButton:enabled:active:hover,
+button.DialogButton:enabled:active.gpfocus {
+  background: var(--srcery-bright-black);
+  color: var(--srcery-black);
+}
+
+/* ? Dropdowns */
+/* TODO */
+
+/* ? Toggles */
+/* TODO ? */
+
+/* ? Checkboxes */
+/* TODO ? */
+
+/* ? Text fields */
+/* TODO ? */
