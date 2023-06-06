@@ -9,8 +9,7 @@
 .supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
   color: var(--srcery-white);
 }
-.supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK:active,
-.supernav_SuperNavMenu_7AlhC:hover:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+.supernav_SuperNavMenu_7AlhC:hover:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK:not(.supernav_MenuButton_19axK:active) {
   color: var(--srcery-bright-white);
 }
 
@@ -76,6 +75,24 @@
 }
 .titlebarcontrols_AnnouncementsButton_5wILZ:hover {
   background-color: var(--srcery-bright-black);
+}
+
+/* ? Nav bar notification button */
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
+  background-color: var(--srcery-xgray9);
+}
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj) .titlebarcontrols_Icon_34bQc,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj) .titlebarcontrols_Icon_34bQc {
+  color: var(--srcery-white);
+}
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
+  background-color: var(--srcery-bright-black);
+}
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover .titlebarcontrols_Icon_34bQc,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover .titlebarcontrols_Icon_34bQc {
+  color: var(--srcery-bright-white);
 }
 
 /* ? Nav bar account info */

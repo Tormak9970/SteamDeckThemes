@@ -9,7 +9,18 @@
     "shared/index.css": [
       "SteamLibraryWindow|Steam",
       "Special Offer.*",
-      "https://store.steampowered.com/marketingmessages.*"
+      "https://store.steampowered.com/marketingmessages.*",
+      "Store Supernav",
+      "Library Supernav",
+      "Community Supernav",
+      "Profile Supernav",
+      "Help Root .*",
+      "Friends Root .*",
+      "View Root .*",
+      "Games Root .*",
+      "Steam Root .*",
+      "Notifications Menu",
+      "Account Menu"
     ],
     "shared/tooltips.css": [
       "SteamLibraryWindow|Steam",
@@ -17,8 +28,19 @@
       "https://store.steampowered.com/marketingmessages.*"
     ],
     "shared/navbar.css": [ "SteamLibraryWindow|Steam" ],
-    "shared/root-nav.css": [ "SteamLibraryWindow|Steam", "*.Root.*" ],
-    "shared/super-nav.css": [ "SteamLibraryWindow|Steam", "*.Supernav.*" ],
+    "shared/nav-menu.css": [
+      "Store Supernav",
+      "Library Supernav",
+      "Community Supernav",
+      "Profile Supernav",
+      "Help Root .*",
+      "Friends Root .*",
+      "View Root .*",
+      "Games Root .*",
+      "Steam Root .*",
+      "Notifications Menu",
+      "Account Menu"
+    ],
     "shared/interactables.css": [
       "SteamLibraryWindow|Steam",
       "Special Offer.*",
