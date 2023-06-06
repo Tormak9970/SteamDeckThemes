@@ -46,10 +46,9 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 }
 .supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
   background: var(--colored-toggles-desktop-main-color);
-  animation: var(--colored-toggles-desktop-animation);
 }
 
-/* ? Announcement icon */
+/* ? News icon */
 .titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi {
   background-color: var(--colored-toggles-desktop-main-color);
 	color: var(--colored-toggles-desktop-friends-text-color);
@@ -75,6 +74,7 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX:hover {
   background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Icon of play selection button */
@@ -116,6 +116,7 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover {
   background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Icon of download selection button */
@@ -138,12 +139,14 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 /* ? Drive Selection */
 .DesktopUI .installrequest_FolderOption_Oo5JP.installrequest_Active_gkgG- {
   background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? General dialog buttons */
 button.DialogButton.Primary {
   background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
@@ -202,5 +205,5 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 /* ? Recent play icon */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4) {
   background: var(--colored-toggles-desktop-main-color);
-  animation: var(--colored-toggles-desktop-animation);
+	animation: var(--colored-toggles-desktop-animation);
 }
