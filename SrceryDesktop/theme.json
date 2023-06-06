@@ -4,7 +4,7 @@
   "author": "Tormak",
   "version": "v1.0.0",
   "manifest_version": 4,
-  "target": "System-Wide",
+  "target": "Desktop",
   "inject": {
     "shared/index.css": [
       "SteamLibraryWindow|Steam",

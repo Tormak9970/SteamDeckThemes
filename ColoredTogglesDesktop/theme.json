@@ -2,7 +2,7 @@
   "name": "Desktop Colored Toggles",
   "version": "v1.0",
   "author": "Tormak",
-  "target": "System-Wide",
+  "target": "Desktop",
   "description": "Colors all inputs (buttons, toggles, icons, labels, and progress bars) to a chosen color.",
   "inject": {
     "shared.css": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game" ]
