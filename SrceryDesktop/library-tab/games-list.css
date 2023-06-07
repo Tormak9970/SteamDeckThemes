@@ -53,12 +53,23 @@
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
   color: var(--srcery-bright-white);
 }
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
+  background-color: var(--srcery-xgray9);
+  fill: var(--srcery-xgray12);
+  color: var(--srcery-bright-white);
+}
 
 /* ? View collections button */
 .gamelisthome_Bar_3pSPl .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--srcery-bright-white);
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
+  background-color: var(--srcery-bright-white);
+}
+.gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
+  background-color: var(--srcery-bright-black);
+}
+.gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--srcery-bright-white);
 }
 
@@ -102,4 +113,47 @@
 
 .DesktopUI .DialogToggle_Label {
   color: var(--srcery-bright-white);
+}
+
+/* ? Filters search bar */
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+  background-color: var(--srcery-xgray4);
+}
+
+/* ? Filter search button */
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+  background-color: var(--srcery-xgray4);
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
+  fill: var(--srcery-white);
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {
+  background-color: var(--srcery-bright-black);
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_ .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path,
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
+  fill: var(--srcery-bright-white);
+}
+
+/* ? Filter search pane */
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
+  background-color: var(--srcery-bright-black);
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  background-color: var(--srcery-bright-black);
+}
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
+  color: var(--srcery-bright-green);
+}
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase:hover {
+  background: var(--srcery-black);
+}
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
+  background: var(--srcery-black);
+  color: var(--srcery-xgray9)
+}
+
+.SVGIcon_Button.SVGIcon_DynamicCollection {
+  fill: var(--srcery-red);
 }
