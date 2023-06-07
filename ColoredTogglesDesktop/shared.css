@@ -65,6 +65,11 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 	fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
+/* ? Update icon on a play button on a game */
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+
 /* ? Text on a play button on a game */
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX > .appactionbutton_ButtonText_33cnX {
 	color: var(--colored-toggles-desktop-friends-text-color);
