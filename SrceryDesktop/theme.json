@@ -14,6 +14,7 @@
     ],
     "shared/navbar.css": [ "SteamLibraryWindow|Steam" ],
     "shared/nav-menu.css": [
+      "SteamLibraryWindow|Steam",
       ".*Supernav",
       ".*Root .*",
       "Notifications Menu",

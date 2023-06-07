@@ -26,7 +26,9 @@
 }
 
 /* ? Selected game */
-/* TODO */
+.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
+  background-color: var(--srcery-xgray1);
+}
 
 /* ? Game uninstalled color */
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
@@ -35,5 +37,69 @@
 
 /* ? Game installed color */
 .gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
+  color: var(--srcery-bright-white);
+}
+
+/* ? Home button */
+.gamelisthome_Bar_3pSPl {
+  background-color: var(--srcery-xgray9);
+}
+.gamelisthome_Label_3O48L {
+  color: var(--srcery-bright-white);
+}
+.gamelisthome_Bar_3pSPl:hover {
+  background-color: var(--srcery-bright-black);
+}
+.gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
+  color: var(--srcery-bright-white);
+}
+
+/* ? View collections button */
+.gamelisthome_Bar_3pSPl .gamelisthome_CollectionIconBox_2tyaV {
+  background-color: var(--srcery-bright-white);
+}
+.gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
+  background-color: var(--srcery-bright-white);
+}
+
+/* ? Filters row */
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg path,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg line,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg polyline,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg circle {
+  stroke: var(--srcery-white);
+}
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg {
+  fill: var(--srcery-white);
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg path,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg line,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg polyline,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg circle {
+  stroke: var(--srcery-bright-white);
+}
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg {
+  fill: var(--srcery-bright-white);
+}
+
+/* ? Filters dropdown */
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-xgray9);
+}
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m .gamelistdropdown_Arrow_15aGn polygon {
+  fill: var(--srcery-bright-white);
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-bright-black);
+}
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn polygon {
+  fill: var(--srcery-bright-white);
+}
+
+.DesktopUI .DialogToggle_Label {
   color: var(--srcery-bright-white);
 }
