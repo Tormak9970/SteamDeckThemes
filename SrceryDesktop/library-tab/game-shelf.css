@@ -1,0 +1,40 @@
+/* ? what's new */
+.pageablecontainer_HeaderPageControls_2pAbU {
+  color: var(--srcery-bright-white);
+}
+.libraryhomenewupdates_SettingsButton_1eFe5 svg {
+  fill: var(--srcery-bright-white);
+  color: var(--srcery-bright-white);
+}
+.libraryhomenewupdates_SettingsButton_1eFe5:hover .SVGIcon_Settings path {
+  fill: var(--srcery-bright-white);
+}
+.libraryhomenewupdates_EventTime_2rlKq {
+  color: var(--srcery-white);
+}
+.libraryhomenewupdates_Event_Title_1Gu1U div.libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_DVBcp {
+  color: var(--srcery-white);
+}
+.libraryhomenewupdates_EventOptions_2-p7s>div {
+  background-color: var(--srcery-white);
+}
+.libraryhomenewupdates_EventOptions_2-p7s:hover > div {
+  background-color: var(--srcery-blue);
+}
+.pageablecontainer_PageLeft_1TMDJ.pageablecontainer_Disabled_3llJG > svg > polyline,
+.pageablecontainer_PageRight_2qGnL.pageablecontainer_Disabled_3llJG > svg > polyline {
+  stroke: var(--srcery-xgray9);
+}
+.pageablecontainer_PageLeft_1TMDJ > svg > polyline,
+.pageablecontainer_PageRight_2qGnL > svg > polyline {
+  stroke: var(--srcery-white);
+}
+
+/* ? game news modal */
+
+
+/* ? scroll bar */
+.library_Container_3xRRJ *::-webkit-scrollbar-corner,
+.library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
+  color: var(--srcery-bright-black);
+}

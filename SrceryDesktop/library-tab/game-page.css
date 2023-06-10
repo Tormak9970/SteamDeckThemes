@@ -1,0 +1,23 @@
+
+
+
+/* ? install and uninstall window */
+.DialogContent,
+.DialogContentTransition {
+  background: var(--srcery-black);
+}
+.DialogHeader {
+  color: var(--srcery-bright-white);
+}
+.DialogBodyText {
+  color: var(--srcery-white);
+}
+.ModalPosition_Content {
+  color: var(--srcery-white);
+}
+.closeButton .SVGIcon_Button > line {
+  stroke: var(--srcery-white) !important;
+}
+.ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
+  stroke: var(--srcery-bright-white) !important;
+}

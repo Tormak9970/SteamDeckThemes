@@ -18,7 +18,8 @@
       ".*Supernav",
       ".*Root .*",
       "Notifications Menu",
-      "Account Menu"
+      "Account Menu",
+      "Menu"
     ],
     "shared/interactables.css": [
       "SteamLibraryWindow|Steam",
@@ -69,7 +70,11 @@
           "secondary-windows/special-offers.css": [
             "Special Offer.*",
             "https://store.steampowered.com/marketingmessages.*"
-          ]
+          ],
+          "secondary-windows/game-properties.css": [],
+          "secondary-windows/remove-from-lib.css": [],
+          "secondary-windows/logout.css": [],
+          "secondary-windows/settings.css": []
         },
         "No": {}
       }

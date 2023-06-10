@@ -29,6 +29,14 @@
 .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
   background-color: var(--srcery-xgray1);
 }
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover,
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z :hover,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {
+  background-color: var(--srcery-bright-black);
+}
 
 /* ? Game uninstalled color */
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
@@ -156,4 +164,16 @@
 
 .SVGIcon_Button.SVGIcon_DynamicCollection {
   fill: var(--srcery-red);
+}
+
+/* ? Scroll to top button */
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
+  background-color: var(--srcery-xgray9);
+  border: 1px solid var(--srcery-bright-white);
+}
+.gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow {
+  background-color: var(--srcery-bright-black);
+}
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
+  stroke: var(--srcery-bright-white);
 }
