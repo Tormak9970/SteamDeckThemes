@@ -1,4 +1,6 @@
-
+/* ? background */
+/* .appdetailsoverview_Container_27RcN, */
+/* .appdetails_InnerContainer_1Svpj, */
 
 
 /* ? install and uninstall window */
@@ -21,3 +23,5 @@
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
   stroke: var(--srcery-bright-white) !important;
 }
+
+/* ? Achievements window */

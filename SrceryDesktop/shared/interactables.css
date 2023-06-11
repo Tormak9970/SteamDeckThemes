@@ -27,3 +27,17 @@ button.DialogButton:enabled:active.gpfocus {
 
 /* ? Text fields */
 /* TODO ? */
+.DialogTextInputBase, ._DialogInputContainer {
+  color: var(--srcery-white);
+  background-color: var(--srcery-xgray1);
+}
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+  background: var(--srcery-hard-black);
+  color: var(--srcery-white);
+}
+.DialogInput_ClearAction .SVGIcon_X_Line line {
+  stroke: var(--srcery-white);
+}
+.DialogInput_ClearAction:hover .SVGIcon_X_Line line {
+  stroke: var(--srcery-bright-white);
+}

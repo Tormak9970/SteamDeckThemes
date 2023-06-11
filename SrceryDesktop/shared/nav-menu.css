@@ -1,8 +1,8 @@
 .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
-  background: var(--srcery-bright-black);
+  background: var(--srcery-xgray9);
 }
 .menu_MenuPopup_3pofG {
-  background: var(--srcery-bright-black);
+  background: var(--srcery-xgray9);
 }
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k {
@@ -14,6 +14,6 @@
 }
 
 .menu_MenuItem_2jXHP.menu_Item_2uiDe:hover {
-  background: var(--srcery-white);
+  background: var(--srcery-bright-white);
   color: var(--srcery-black);
 }

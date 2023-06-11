@@ -1,3 +1,11 @@
+/* ? background */
+.gamelistbar_Container_3x1Hk,
+.gamelistbar_GameListHomeAndSearch_2TKEa,
+.appdetailsoverview_BackdropGlass_Jbe--,
+.library_LibraryWindowDivider_276E6 {
+  background: var(--srcery-hard-black);
+}
+
 /* ? Accordion headers */
 .gamelistsectionheader_Container_2sYIg {
   background: var(--srcery-black);
@@ -18,6 +26,15 @@
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
   background: var(--srcery-bright-black);
+}
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
+  background: var(--srcery-bright-black);
+}
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
+  stroke: var(--srcery-bright-white);
+}
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs .gamelistsectionheader_SectionHeaderContent_3cV3O .gamelistsectionheader_SectionName_2mZ8L {
+  color: var(--srcery-bright-white);
 }
 
 /* ? Accordion Icons */
@@ -133,7 +150,7 @@
   background-color: var(--srcery-xgray4);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
-  fill: var(--srcery-white);
+  fill: var(--srcery-xgray9);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {
@@ -160,10 +177,6 @@
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
   background: var(--srcery-black);
   color: var(--srcery-xgray9)
-}
-
-.SVGIcon_Button.SVGIcon_DynamicCollection {
-  fill: var(--srcery-red);
 }
 
 /* ? Scroll to top button */

@@ -1,4 +1,14 @@
+.infoicon_MoreInfoIcon_34I5H {
+  color: var(--srcery-white);
+  background-color: var(--srcery-xgray4);
+}
+
 .tooltip_TextToolTip_29b2a {
+  background: var(--srcery-bright-black);
+  color: var(--srcery-bright-white);
+}
+
+.tooltip_ToolTipCustom_3Dt__ {
   background: var(--srcery-bright-black);
   color: var(--srcery-bright-white);
 }
