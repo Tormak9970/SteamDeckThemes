@@ -42,7 +42,116 @@
 }
 
 /* ? game news modal */
+.apppartnereventspage_PartnerEvent_lwprN {
+  background-image: radial-gradient(ellipse at top left, var(--srcery-bright-black), var(--srcery-black));
+}
+.localdateandtime_RightSideTitles_3sPON {
+  color: var(--srcery-bright-white);
+}
+.localdateandtime_ShortDateAndTime_4K3Bl {
+  color: var(--srcery-white);
+}
+.partnereventdisplay_EventDetailTitle_2_4FS {
+  color: var(--srcery-bright-white);
+}
+.partnereventdisplay_EventDetailsBody_3v0cw {
+  color: var(--srcery-bright-white);
+  opacity: 0.7;
+}
+/** bottom buttons */
+.partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white);
+}
+.partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj:hover {
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+}
+.discussionwidget_DiscussionButton_wnKan .SVGIcon_ChatBubble {
+  fill: var(--srcery-bright-white);
+}
+.discussionwidget_VoteUpIcon_vRT1W,
+.discussionwidget_VoteDownIcon_3QPkc,
+.discussionwidget_ShareIcon_1kFSv {
+  fill: var(--srcery-bright-white);
+}
+/** side buttons */
+.apppartnereventspage_CloseButton_35HbM {
+  background-color: var(--srcery-xgray9);
+  border: 1px solid var(--srcery-bright-white);
+}
+.apppartnereventspage_CloseButton_35HbM svg line {
+  stroke: var(--srcery-bright-white);
+}
+.apppartnereventspage_CloseButton_35HbM:hover {
+  background-color: var(--srcery-white);
+  border: 1px solid var(--srcery-bright-white);
+}
+.apppartnereventspage_CloseButton_35HbM:hover svg line {
+  stroke: var(--srcery-bright-white);
+}
+.apppartnereventspage_ScrollButton_357Gu {
+  background-color: var(--srcery-xgray9);
+  border: 1px solid var(--srcery-bright-white);
+}
+.apppartnereventspage_ScrollButton_357Gu svg polygon {
+  fill: var(--srcery-bright-white);
+}
+.apppartnereventspage_ScrollButton_357Gu:hover {
+  background-color: var(--srcery-white);
+  border: 1px solid var(--srcery-bright-white);
+}
+.apppartnereventspage_ScrollButton_357Gu:hover svg polygon {
+  fill: var(--srcery-bright-white);
+}
 
+/* ? game news set reminder dropdown */
+.eventreminder_ReminderBackground_GDF1p {
+  background: var(--srcery-xgray9);
+}
+.eventreminder_ReminderOptionsHeader_1GBAq {
+  color: var(--srcery-bright-white);
+}
+.eventreminder_ReminderOption_RNhWc, a.eventreminder_ReminderOption_RNhWc {
+  background: var(--srcery-bright-black);
+  color: var(--srcery-bright-white);
+}
+.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover,
+a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover {
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+}
+
+/* ? game news share modal */
+.DialogLabel {
+  color: var(--srcery-bright-white);
+}
+.partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .partnereventshared_Button_3P0Tm {
+  background: transparent;
+}
+.partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .Focusable {
+  border-radius: 2px;
+  transition-property: background,color,box-shadow;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white);
+}
+.partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .Focusable:hover {
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+  box-shadow: 2px 2px 15px rgba(0,0,0,.5);
+}
+.partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .discussionwidget_ShareBtn_1qDAn img {
+  filter: invert(9%) sepia(34%) saturate(479%) hue-rotate(312deg) brightness(105%) contrast(98%);
+}
+.discussionwidget_SteamIcon_3ZAOL {
+  filter: invert(9%) sepia(34%) saturate(479%) hue-rotate(312deg) brightness(105%) contrast(98%);
+}
+.discussionwidget_ClipboardIcon_sEXEi {
+  filter: invert(9%) sepia(34%) saturate(479%) hue-rotate(312deg) brightness(105%) contrast(98%);
+}
 
 /* ? game selves */
 /** add shelf icon and text */
@@ -60,7 +169,7 @@
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
   color: var(--srcery-bright-white);
 }
-/* todo: seperators */
+/** seperators */
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   color: var(--srcery-white);
 }
@@ -89,8 +198,19 @@
   background: var(--srcery-bright-white);
   color: var(--srcery-black);
 }
-/* todo: styles for when reodering */
-
+/** styles for when reodering */
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
+  background-color: var(--srcery-xgray9);
+}
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
+  color: var(--srcery-bright-white);
+}
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
+  color: var(--srcery-bright-white);
+}
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+  color: var(--srcery-bright-white);
+}
 
 /* ? scroll bar */
 .library_Container_3xRRJ *::-webkit-scrollbar-corner,

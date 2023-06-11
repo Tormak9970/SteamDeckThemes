@@ -140,17 +140,12 @@
   color: var(--srcery-bright-white);
 }
 
-/* ? Filters search bar */
-.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
-  background-color: var(--srcery-xgray4);
-}
-
 /* ? Filter search button */
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
-  background-color: var(--srcery-xgray4);
+  background-color: var(--srcery-xgray9);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
-  fill: var(--srcery-xgray9);
+  fill: var(--srcery-bright-white);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {

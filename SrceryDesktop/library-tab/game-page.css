@@ -1,27 +1,50 @@
 /* ? background */
-/* .appdetailsoverview_Container_27RcN, */
-/* .appdetails_InnerContainer_1Svpj, */
+.library_AppDetailsTransitionGroup_2Dd4T {
+  background: var(--srcery-hard-black);
+}
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+  background-image: radial-gradient(100% 100% at 45% 35%, var(--srcery-black) 0%, var(--srcery-hard-black) 100%);
+}
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+  /* TODO: change this */
+  background: linear-gradient(to top, rgba(36, 40, 47, 0) 0%, rgba(43, 57, 66, 0.2) calc(100% - 2px), rgba(193, 202, 207, 0.1) calc(100% - 1px), rgba(29, 29, 29, 0.3) 100%);
+}
+.appdetailsplaysection_StickyHeaderShadow_2_86Q {
+  /* TODO: change this */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
+}
 
+/* ? game links */
+.appdetailsprimarylinkssection_LinksSection_3-V8v>div {
+  /* TODO: change this */
+  background: radial-gradient(100% 80% at 64% 95%, rgba(108, 119, 134, 0.1) 40%, rgba(83, 104, 104, 0.1) 100%) !important;
+}
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover {
+  /* TODO: change this */
+  background-color: rgba(101,113,128,.356);
+}
 
-/* ? install and uninstall window */
-.DialogContent,
-.DialogContentTransition {
-  background: var(--srcery-black);
-}
-.DialogHeader {
-  color: var(--srcery-bright-white);
-}
-.DialogBodyText {
-  color: var(--srcery-white);
-}
-.ModalPosition_Content {
-  color: var(--srcery-white);
-}
-.closeButton .SVGIcon_Button > line {
-  stroke: var(--srcery-white) !important;
-}
-.ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
-  stroke: var(--srcery-bright-white) !important;
-}
+/* ? recommend review */
+
+/* ? post game summary */
+
+/* ? activity */
+
+/* ? friends container */
+
+/* ? achievements container */
+
+/* ? badge container */
+
+/* ? notes container */
+
+/* ? screenshots container */
+
+/* ? my review container */
+
 
 /* ? Achievements window */
+
+/* ? notes window ? */
+
+/* ? screenshots window */
