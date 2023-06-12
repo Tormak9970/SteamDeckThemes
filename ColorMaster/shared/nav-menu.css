@@ -1,0 +1,45 @@
+.DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
+  background: var(--srcery-xgray9);
+}
+.menu_MenuPopup_3pofG {
+  background: var(--srcery-xgray9);
+}
+
+.DesktopUI .contextmenu_contextMenuItem_pFo3k, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k {
+  color: var(--srcery-bright-white);
+}
+
+.menu_MenuItem_2jXHP.menu_Separator_21GPY {
+  border-bottom: .2px solid var(--srcery-white);
+}
+
+.menu_MenuItem_2jXHP.menu_Item_2uiDe:hover {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* ? notifications menu only */
+.titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP {
+  background: var(--srcery-bright-black);
+  color: var(--srcery-bright-white);
+}
+.titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP:hover {
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+}
+.standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
+  background: var(--srcery-bright-black);
+  color: var(--srcery-bright-white);
+}
+.standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q:hover {
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+}
+.standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_StandardNotificationSubText_2XcN2 {
+  color: var(--srcery-bright-white);
+}
+.standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_Title_1WlRE,
+.notificationcontent_TimestampDesktop_1N5mc,
+.standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_Icon_19g_L{
+  color: var(--srcery-bright-white);
+}

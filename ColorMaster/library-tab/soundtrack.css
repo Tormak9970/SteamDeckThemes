@@ -1,0 +1,60 @@
+/* ? background */
+.appdetailssoundtrack_SoundtrackPanel_23zCI {
+  background: radial-gradient(73% 81% at 0% 0%,
+  rgb(var(--srcery-black-rgb4)) 86%,
+  #000000 196%);
+}
+
+/* ? header */
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_AlbumName_oW5xv {
+  color: var(--srcery-bright-white);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_ArtistName_2bTdS {
+  color: var(--srcery-white);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_AlbumStats_1qxAZ,
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG {
+  color: var(--srcery-white);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG .appdetailssoundtrack_ParentAppName_3C_pT {
+  color: var(--srcery-bright-white);
+  text-decoration: var(--srcery-bright-white);
+}
+
+/* ? track controls */
+button.soundtrackcontrols_IconButton_1iFnR svg path {
+  stroke: var(--srcery-xgray4);
+  fill: var(--srcery-xgray4);
+}
+button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg path {
+  stroke: var(--srcery-white);
+  fill: var(--srcery-white);
+}
+button.soundtrackcontrols_IconButton_1iFnR:hover svg path {
+  stroke: var(--srcery-bright-white);
+  fill: var(--srcery-bright-white);
+}
+
+/* ? track list */
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep {
+  background: radial-gradient(100% 80% at 64% 95%,
+    rgba(var(--srcery-gp-grad-stop3), 0.3) 0%,
+    rgba(var(--srcery-gp-grad-stop2), 0.13) 40%,
+    rgba(var(--srcery-gp-grad-stop1), 0.1) 100%);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP.appdetailssoundtrack_Playing_jMohE {
+  background-color: rgb(var(--srcery-white-rgb), 0.3);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP {
+  color: var(--srcery-white);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackLength_157uf {
+  color: var(--srcery-white);
+  opacity: 0.7;
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackNumber_NZZPO, .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackLength_157uf {
+  color: var(--srcery-bright-white);
+}
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP.appdetailssoundtrack_Playing_jMohE {
+  color: var(--srcery-bright-white);
+}

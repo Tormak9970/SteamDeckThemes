@@ -1,0 +1,78 @@
+.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
+  display: none;
+}
+
+/* ? dyn collection icon */
+.SVGIcon_Button.SVGIcon_DynamicCollection {
+  fill: var(--srcery-green);
+}
+
+/* ? game hover styles */
+.appportraithover_AppPortraitHover_2sGn0 {
+  background-color: var(--srcery-white);
+}
+.appportraithover_AppTitle_1Kdi2 {
+  color: var(--srcery-bright-white);
+}
+.appportraithover_PlaytimeDetails_1VGPO {
+  color: var(--srcery-bright-white);
+}
+.appportraithover_PlaytimeDetails_1VGPO .appportraithover_Header_MIHa_ {
+  color: var(--srcery-bright-white);
+}
+
+/* ? collection sort dropdown */
+.appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
+  color: var(--srcery-white);
+}
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown:hover {
+  color: var(--srcery-bright-white);
+}
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow svg {
+  fill: var(--srcery-white);
+}
+/** collection sort dropdown */
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+  color: var(--srcery-white);
+}
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown:hover {
+  color: var(--srcery-bright-white);
+}
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow svg {
+  fill: var(--srcery-white);
+}
+/** collection sort dropdown body */
+.appgrid_SortingDropDownContainer_1ZpBQ > div.DesktopUI,
+.DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ > div {
+  background: var(--srcery-xgray9) !important;
+}
+.appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS.DesktopUI,
+.DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
+  color: var(--srcery-bright-white);
+}
+.appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI,
+.DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* ? modals */
+.DialogContent,
+.DialogContentTransition {
+  background: var(--srcery-black);
+}
+.DialogHeader {
+  color: var(--srcery-bright-white);
+}
+.DialogBodyText {
+  color: var(--srcery-white);
+}
+.ModalPosition_Content {
+  color: var(--srcery-white);
+}
+.closeButton .SVGIcon_Button > line {
+  stroke: var(--srcery-white) !important;
+}
+.ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
+  stroke: var(--srcery-bright-white) !important;
+}
