@@ -9,70 +9,70 @@
 
 /* ? game hover styles */
 .appportraithover_AppPortraitHover_2sGn0 {
-  background-color: var(--color-master-white);
+  background-color: var(--color-master-foreground);
 }
 .appportraithover_AppTitle_1Kdi2 {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appportraithover_PlaytimeDetails_1VGPO {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appportraithover_PlaytimeDetails_1VGPO .appportraithover_Header_MIHa_ {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 
 /* ? collection sort dropdown */
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown:hover {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow svg {
-  fill: var(--color-master-white);
+  fill: var(--color-master-foreground);
 }
 /** collection sort dropdown */
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown:hover {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow svg {
-  fill: var(--color-master-white);
+  fill: var(--color-master-foreground);
 }
 /** collection sort dropdown body */
 .appgrid_SortingDropDownContainer_1ZpBQ > div.DesktopUI,
 .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ > div {
-  background: var(--color-master-gray4) !important;
+  background: var(--color-master-midtone4) !important;
 }
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS.DesktopUI,
 .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover.DesktopUI,
 .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
-  background: var(--color-master-bright-white);
-  color: var(--color-master-black);
+  background: var(--color-master-foreground-bright);
+  color: var(--color-master-background);
 }
 
 /* ? modals */
 .DialogContent,
 .DialogContentTransition {
-  background: var(--color-master-black);
+  background: var(--color-master-background);
 }
 .DialogHeader {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .DialogBodyText {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .ModalPosition_Content {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .closeButton .SVGIcon_Button > line {
-  stroke: var(--color-master-white) !important;
+  stroke: var(--color-master-foreground) !important;
 }
 .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
-  stroke: var(--color-master-bright-white) !important;
+  stroke: var(--color-master-foreground-bright) !important;
 }

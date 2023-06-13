@@ -1,38 +1,38 @@
 /* ? background */
 .bottombar_BottomBar_3vCzS {
-  background: var(--color-master-black);
+  background: var(--color-master-background);
 }
 
 /* ? add game and friends & chat buttons */
 .bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
 .bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3 {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .bottombar_AddGameButton_2foCk:hover .bottombar_Icon_1KrJ3,
 .bottombar_FriendsButton_1TdaA:hover:not(.bottombar_Disabled_2Sdix) .bottombar_Text_3OhUx {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .bottombar_AddGameButton_2foCk .bottombar_Text_3OhUx,
 .bottombar_FriendsButton_1TdaA .bottombar_Text_3OhUx {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .bottombar_AddGameButton_2foCk:hover .bottombar_Text_3OhUx,
 .bottombar_FriendsButton_1TdaA:hover:not(.bottombar_Disabled_2Sdix) .bottombar_Icon_1KrJ3 {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 
 
 /* ? download bar */
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Status_1sCy- {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3 {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .bottombar_DownloadStatusContent_ip-YZ .bottombar_Queue_3wJnT {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .bottombar_DownloadStatusContent_ip-YZ:hover .bottombar_Icon_1KrJ3,
 .bottombar_DownloadStatusContent_ip-YZ:hover .bottombar_Queue_3wJnT {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }

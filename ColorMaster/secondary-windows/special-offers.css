@@ -1,51 +1,51 @@
 /* ? Background */
 .DialogContent, .DialogContentTransition {
-  background: var(--color-master-dark-black);
+  background: var(--color-master-background-dark);
 }
 
 /* ? Foreground */
 .marketingmessagesdialog_BrowserViewHost_2JQwV,
 .messagelist_MessageListPage_1N7O3 {
-  background: var(--color-master-black);
+  background: var(--color-master-background);
 }
 
 /* ? Close Button */
 .DesktopUI .title-area-icon.closeButton:hover, .friendsui-container .title-area-icon.closeButton:hover {
-  background: var(--color-master-bright-red);
+  background: var(--color-master-warning);
 }
 .title-area-icon.closeButton .SVGIcon_Button {
-  fill: var(--color-master-white);
+  fill: var(--color-master-foreground);
 }
 .title-area-icon.closeButton .title-area-icon .SVGIcon_X_Line line {
-  stroke: var(--color-master-white);
+  stroke: var(--color-master-foreground);
 }
 
 /* ? Text */
 .marketingmessagesdialog_Legal_1XA-6 {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .salepreviewwidgets_StoreOriginalPrice_1EKGZ {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .salepreviewwidgets_StoreOriginalPrice_1EKGZ::before {
-  border-bottom: 1px solid var(--color-master-white);
+  border-bottom: 1px solid var(--color-master-foreground);
 }
 .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 
 /* ? Arrows and pagination indicators */
 .messagelist_LeftArrow_3ZyZU > svg > path,
 .messagelist_RightArrow_3ZyZU > svg > path {
-  fill: var(--color-master-gray3);
+  fill: var(--color-master-midtone3);
 }
 .messagelist_LeftArrow_3ZyZU.messagelist_Active_cwA5j > svg > path,
 .messagelist_RightArrow_3ZyZU.messagelist_Active_cwA5j > svg > path {
-  fill: var(--color-master-white);
+  fill: var(--color-master-foreground);
 }
 .messagelist_Pip_ZQrtM {
-  background: var(--color-master-gray3);
+  background: var(--color-master-midtone3);
 }
 .messagelist_Pip_ZQrtM.messagelist_Active_cwA5j, .messagelist_Pip_ZQrtM:hover {
-  background: var(--color-master-white);
+  background: var(--color-master-foreground);
 }

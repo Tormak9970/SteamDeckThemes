@@ -25,63 +25,51 @@
       "SteamLibraryWindow|Steam",
       "Special Offer.*",
       "https://store.steampowered.com/marketingmessages.*"
-    ]
+    ],
+
+    "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/games-list.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/game-shelf.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/game-page.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/collections.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/soundtrack.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/footer.css": [ "SteamLibraryWindow|Steam" ],
+
+    "store-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+
+    "community-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+
+    "secondary-windows/special-offers.css": [
+      "Special Offer.*",
+      "https://store.steampowered.com/marketingmessages.*"
+    ],
+    "secondary-windows/game-properties.css": [],
+    "secondary-windows/remove-from-lib.css": [],
+    "secondary-windows/logout.css": [],
+    "secondary-windows/settings.css": [],
+    "secondary-windows/notes.css": [],
+    "secondary-windows/screenshots.css": [],
+    "secondary-windows/change-nickname.css": []
   },
   "dependencies": {
     "Desktop Colored Toggles": {}
   },
   "patches": {
-    "Library Tab": {
-      "type": "checkbox",
+    "Enabled": {
+      "type": "none",
       "values": {
-        "Yes": {
-          "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/games-list.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/game-shelf.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/game-page.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/collections.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/soundtrack.css": [ "SteamLibraryWindow|Steam" ],
-          "library-tab/footer.css": [ "SteamLibraryWindow|Steam" ]
-        },
-        "No": {}
-      }
-    },
-    "Store Tab": {
-      "type": "checkbox",
-      "values": {
-        "Yes": {
-          "store-tab/index.css": [ "SteamLibraryWindow|Steam" ]
-        },
-        "No": {}
-      }
-    },
-    "Community Tab": {
-      "type": "checkbox",
-      "values": {
-        "Yes": {
-          "community-tab/index.css": [ "SteamLibraryWindow|Steam" ]
-        },
-        "No": {}
-      }
-    },
-    "Secondary Windows": {
-      "type": "checkbox",
-      "values": {
-        "Yes": {
-          "secondary-windows/special-offers.css": [
-            "Special Offer.*",
-            "https://store.steampowered.com/marketingmessages.*"
-          ],
-          "secondary-windows/game-properties.css": [],
-          "secondary-windows/remove-from-lib.css": [],
-          "secondary-windows/logout.css": [],
-          "secondary-windows/settings.css": [],
-          "secondary-windows/notes.css": [],
-          "secondary-windows/screenshots.css": [],
-          "secondary-windows/change-nickname.css": []
-        },
-        "No": {}
-      }
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Main Color",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#1c1b19",
+          "css_variable": "color-master-background",
+          "tabs": [ ".*" ]
+        }
+      ]
     }
   }
 }

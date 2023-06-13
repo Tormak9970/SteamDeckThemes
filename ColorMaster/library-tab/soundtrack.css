@@ -1,60 +1,60 @@
 /* ? background */
 .appdetailssoundtrack_SoundtrackPanel_23zCI {
   background: radial-gradient(73% 81% at 0% 0%,
-  rgb(var(--color-master-black-rgb4)) 86%,
+  rgb(var(--color-master-background4_rgb)) 86%,
   #000000 196%);
 }
 
 /* ? header */
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_AlbumName_oW5xv {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_ArtistName_2bTdS {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_AlbumStats_1qxAZ,
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG .appdetailssoundtrack_ParentAppName_3C_pT {
-  color: var(--color-master-bright-white);
-  text-decoration: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
+  text-decoration: var(--color-master-foreground-bright);
 }
 
 /* ? track controls */
 button.soundtrackcontrols_IconButton_1iFnR svg path {
-  stroke: var(--color-master-gray2);
-  fill: var(--color-master-gray2);
+  stroke: var(--color-master-midtone2);
+  fill: var(--color-master-midtone2);
 }
 button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg path {
-  stroke: var(--color-master-white);
-  fill: var(--color-master-white);
+  stroke: var(--color-master-foreground);
+  fill: var(--color-master-foreground);
 }
 button.soundtrackcontrols_IconButton_1iFnR:hover svg path {
-  stroke: var(--color-master-bright-white);
-  fill: var(--color-master-bright-white);
+  stroke: var(--color-master-foreground-bright);
+  fill: var(--color-master-foreground-bright);
 }
 
 /* ? track list */
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep {
   background: radial-gradient(100% 80% at 64% 95%,
-    rgba(var(--color-master-gp-grad-stop3), 0.3) 0%,
-    rgba(var(--color-master-gp-grad-stop2), 0.13) 40%,
-    rgba(var(--color-master-gp-grad-stop1), 0.1) 100%);
+    rgba(var(--color-master-gp-grad-stop3_rgb), 0.3) 0%,
+    rgba(var(--color-master-gp-grad-stop2_rgb), 0.13) 40%,
+    rgba(var(--color-master-gp-grad-stop1_rgb), 0.1) 100%);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP.appdetailssoundtrack_Playing_jMohE {
-  background-color: rgb(var(--color-master-white-rgb), 0.3);
+  background-color: rgb(var(--color-master-foreground_rgb), 0.3);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackLength_157uf {
-  color: var(--color-master-white);
+  color: var(--color-master-foreground);
   opacity: 0.7;
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackNumber_NZZPO, .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackLength_157uf {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP.appdetailssoundtrack_Playing_jMohE {
-  color: var(--color-master-bright-white);
+  color: var(--color-master-foreground-bright);
 }
