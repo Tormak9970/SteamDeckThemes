@@ -1,130 +1,130 @@
 /* ? background */
 .libraryhome_UpdatesContainer_17uEB {
-  background: radial-gradient(100% 100% at 33% 45%, var(--srcery-hard-black) 30%, #101314 100%);
+  background: radial-gradient(100% 100% at 33% 45%, var(--color-master-dark-black) 30%, #101314 100%);
 }
 .libraryhome_Container_2gSXC {
-  background: var(--srcery-hard-black);
+  background: var(--color-master-dark-black);
 }
 .libraryhome_LibraryHome_3Sb2o {
-  background-image: linear-gradient(to bottom, var(--srcery-black) 0%, var(--srcery-hard-black) 80%);
+  background-image: linear-gradient(to bottom, var(--color-master-black) 0%, var(--color-master-dark-black) 80%);
 }
 
 /* ? updates and news */
 .pageablecontainer_HeaderPageControls_2pAbU {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .libraryhomenewupdates_SettingsButton_1eFe5 svg {
-  fill: var(--srcery-bright-white);
-  color: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
+  color: var(--color-master-bright-white);
 }
 .libraryhomenewupdates_SettingsButton_1eFe5:hover .SVGIcon_Settings path {
-  fill: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
 }
 .libraryhomenewupdates_EventTime_2rlKq {
-  color: var(--srcery-white);
+  color: var(--color-master-white);
 }
 .libraryhomenewupdates_Event_Title_1Gu1U div.libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_DVBcp {
-  color: var(--srcery-white);
+  color: var(--color-master-white);
 }
 .libraryhomenewupdates_EventOptions_2-p7s>div {
-  background-color: var(--srcery-white);
+  background-color: var(--color-master-white);
 }
 .libraryhomenewupdates_EventOptions_2-p7s:hover > div {
-  background-color: var(--srcery-blue);
+  background-color: var(--color-master-blue);
 }
 .pageablecontainer_PageLeft_1TMDJ.pageablecontainer_Disabled_3llJG > svg > polyline,
 .pageablecontainer_PageRight_2qGnL.pageablecontainer_Disabled_3llJG > svg > polyline {
-  stroke: var(--srcery-xgray9);
+  stroke: var(--color-master-gray4);
 }
 .pageablecontainer_PageLeft_1TMDJ > svg > polyline,
 .pageablecontainer_PageRight_2qGnL > svg > polyline {
-  stroke: var(--srcery-white);
+  stroke: var(--color-master-white);
 }
 
 /* ? game news modal */
 .apppartnereventspage_PartnerEvent_lwprN {
-  background-image: radial-gradient(ellipse at top left, var(--srcery-bright-black), var(--srcery-black));
+  background-image: radial-gradient(ellipse at top left, var(--color-master-bright-black), var(--color-master-black));
 }
 .localdateandtime_RightSideTitles_3sPON {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .localdateandtime_ShortDateAndTime_4K3Bl {
-  color: var(--srcery-white);
+  color: var(--color-master-white);
 }
 .partnereventdisplay_EventDetailTitle_2_4FS {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .partnereventdisplay_EventDetailsBody_3v0cw {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
   opacity: 0.7;
 }
 /** bottom buttons */
 .partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
-  background: var(--srcery-xgray9);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-gray4);
+  color: var(--color-master-bright-white);
 }
 .partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj:hover {
-  background: var(--srcery-white);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-white);
+  color: var(--color-master-bright-white);
 }
 .discussionwidget_DiscussionButton_wnKan .SVGIcon_ChatBubble {
-  fill: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
 }
 .discussionwidget_VoteUpIcon_vRT1W,
 .discussionwidget_VoteDownIcon_3QPkc,
 .discussionwidget_ShareIcon_1kFSv {
-  fill: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
 }
 /** side buttons */
 .apppartnereventspage_CloseButton_35HbM {
-  background-color: var(--srcery-xgray9);
-  border: 1px solid var(--srcery-bright-white);
+  background-color: var(--color-master-gray4);
+  border: 1px solid var(--color-master-bright-white);
 }
 .apppartnereventspage_CloseButton_35HbM svg line {
-  stroke: var(--srcery-bright-white);
+  stroke: var(--color-master-bright-white);
 }
 .apppartnereventspage_CloseButton_35HbM:hover {
-  background-color: var(--srcery-white);
-  border: 1px solid var(--srcery-bright-white);
+  background-color: var(--color-master-white);
+  border: 1px solid var(--color-master-bright-white);
 }
 .apppartnereventspage_CloseButton_35HbM:hover svg line {
-  stroke: var(--srcery-bright-white);
+  stroke: var(--color-master-bright-white);
 }
 .apppartnereventspage_ScrollButton_357Gu {
-  background-color: var(--srcery-xgray9);
-  border: 1px solid var(--srcery-bright-white);
+  background-color: var(--color-master-gray4);
+  border: 1px solid var(--color-master-bright-white);
 }
 .apppartnereventspage_ScrollButton_357Gu svg polygon {
-  fill: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
 }
 .apppartnereventspage_ScrollButton_357Gu:hover {
-  background-color: var(--srcery-white);
-  border: 1px solid var(--srcery-bright-white);
+  background-color: var(--color-master-white);
+  border: 1px solid var(--color-master-bright-white);
 }
 .apppartnereventspage_ScrollButton_357Gu:hover svg polygon {
-  fill: var(--srcery-bright-white);
+  fill: var(--color-master-bright-white);
 }
 
 /* ? game news set reminder dropdown */
 .eventreminder_ReminderBackground_GDF1p {
-  background: var(--srcery-xgray9);
+  background: var(--color-master-gray4);
 }
 .eventreminder_ReminderOptionsHeader_1GBAq {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .eventreminder_ReminderOption_RNhWc, a.eventreminder_ReminderOption_RNhWc {
-  background: var(--srcery-bright-black);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-bright-black);
+  color: var(--color-master-bright-white);
 }
 .eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover,
 a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover {
-  background: var(--srcery-white);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-white);
+  color: var(--color-master-bright-white);
 }
 
 /* ? game news share modal */
 .DialogLabel {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .partnereventshared_Button_3P0Tm {
   background: transparent;
@@ -135,12 +135,12 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
   transition-duration: .2s;
   transition-timing-function: ease-out;
   box-shadow: 2px 2px 5px rgba(0,0,0,.2);
-  background: var(--srcery-xgray9);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-gray4);
+  color: var(--color-master-bright-white);
 }
 .partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .Focusable:hover {
-  background: var(--srcery-white);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-white);
+  color: var(--color-master-bright-white);
   box-shadow: 2px 2px 15px rgba(0,0,0,.5);
 }
 .partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .discussionwidget_ShareBtn_1qDAn img {
@@ -157,63 +157,63 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
 /** add shelf icon and text */
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle {
-  stroke: var(--srcery-white);
+  stroke: var(--color-master-white);
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
-  color: var(--srcery-white);
+  color: var(--color-master-white);
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo svg line,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo svg circle {
-  stroke: var(--srcery-bright-white);
+  stroke: var(--color-master-bright-white);
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 /** seperators */
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
-  color: var(--srcery-white);
+  color: var(--color-master-white);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L {
-  background-color: var(--srcery-xgray4);
+  background-color: var(--color-master-gray2);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L:hover {
-  background-color: var(--srcery-white);
+  background-color: var(--color-master-white);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L polyline {
-  stroke: var(--srcery-white);
+  stroke: var(--color-master-white);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L:hover polyline {
-  stroke: var(--srcery-bright-white);
+  stroke: var(--color-master-bright-white);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
-  stroke: var(--srcery-bright-white);
-  fill: var(--srcery-bright-white);
+  stroke: var(--color-master-bright-white);
+  fill: var(--color-master-bright-white);
 }
 /** add shelf dropdown content */
 .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {
-  background: var(--srcery-xgray9) !important;
-  color: var(--srcery-bright-white);
+  background: var(--color-master-gray4) !important;
+  color: var(--color-master-bright-white);
 }
 .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt:hover {
-  background: var(--srcery-bright-white);
-  color: var(--srcery-black);
+  background: var(--color-master-bright-white);
+  color: var(--color-master-black);
 }
 /** styles for when reodering */
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
-  background-color: var(--srcery-xgray9);
+  background-color: var(--color-master-gray4);
 }
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 
 /* ? scroll bar */
 .library_Container_3xRRJ *::-webkit-scrollbar-corner,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
-  color: var(--srcery-bright-black);
+  color: var(--color-master-bright-black);
 }

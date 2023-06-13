@@ -1,21 +1,21 @@
 .infoicon_MoreInfoIcon_34I5H {
-  color: var(--srcery-white);
-  background-color: var(--srcery-xgray4);
+  color: var(--color-master-white);
+  background-color: var(--color-master-gray2);
 }
 
 .tooltip_TextToolTip_29b2a {
-  background: var(--srcery-bright-black);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-bright-black);
+  color: var(--color-master-bright-white);
 }
 
 .tooltip_ToolTipCustom_3Dt__ {
-  background: var(--srcery-bright-black);
-  color: var(--srcery-bright-white);
+  background: var(--color-master-bright-black);
+  color: var(--color-master-bright-white);
 }
 .tooltip_ToolTipCustom_3Dt__ .tooltip_ToolTipTitle_3YNfm {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
 }
 .tooltip_ToolTipCustom_3Dt__ .tooltip_ToolTipInsetContent_1nxOn {
-  color: var(--srcery-bright-white);
+  color: var(--color-master-bright-white);
   opacity: 0.7;
 }

@@ -4,5 +4,5 @@
 .friendsListSectionTitle,
 .chatRoomListContainer,
 .friendListFooter {
-  background: var(--srcery-black);
+  background: var(--color-master-black);
 }

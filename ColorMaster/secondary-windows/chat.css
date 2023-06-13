@@ -1,5 +1,5 @@
 .chatWindow,
 .chatWindow .chatEntry,
 .titleBarContainer.ChatTabs {
-  background: var(--srcery-black);
+  background: var(--color-master-black);
 }
