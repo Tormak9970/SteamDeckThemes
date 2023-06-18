@@ -22,16 +22,16 @@
 
 /* ? Text */
 .marketingmessagesdialog_Legal_1XA-6 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .salepreviewwidgets_StoreOriginalPrice_1EKGZ {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .salepreviewwidgets_StoreOriginalPrice_1EKGZ::before {
   border-bottom: 1px solid var(--color-master-foreground);
 }
 .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? Arrows and pagination indicators */

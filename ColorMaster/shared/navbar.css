@@ -7,10 +7,10 @@
 
 /* ? Nav bar pages */
 .supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .supernav_SuperNavMenu_7AlhC:hover:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK:not(.supernav_MenuButton_19axK:active) {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? Nav bar arrows */
@@ -18,10 +18,10 @@
   color: var(--color-master-midtone3);
 }
 .supernav_Arrow_25lBL.supernav_Enabled_1LYTH {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .supernav_Arrow_25lBL.supernav_Enabled_1LYTH:hover {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? Nav bar icons */
@@ -50,73 +50,73 @@
 
 /* ? Big picture toggle */
 .titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .titlebarcontrols_GamepadUIToggle_3LKQ3:hover {
   background: var(--color-master-background-bright);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? Nav bar function menus */
 .menu_MenuWrapper_2Lu3d.rootmenu_RootMenuButton_2UyOB {
-  color: var(--color-master-background-bright);
+  color: var(--color-master-font-background-bright);
 }
 .rootmenu_RootMenuButton_2UyOB:hover:not(.rootmenu_Disabled_2hcbl) {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? Nav bar news button */
 .titlebarcontrols_AnnouncementsButton_5wILZ {
-  background-color: var(--color-master-midtone4);
-  color: var(--color-master-foreground-bright);
+  background-color: var(--color-master-font-midtone4);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_Button_2Szzh:hover {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_AnnouncementsButton_5wILZ:hover {
-  background-color: var(--color-master-background-bright);
+  background-color: var(--color-master-font-background-bright);
 }
 
 /* ? Nav bar notification button */
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I,
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj) .titlebarcontrols_Icon_34bQc,
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj) .titlebarcontrols_Icon_34bQc {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover,
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
-  background-color: var(--color-master-background-bright);
+  background-color: var(--color-master-font-background-bright);
 }
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover .titlebarcontrols_Icon_34bQc,
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover .titlebarcontrols_Icon_34bQc {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? Nav bar account info */
 .titlebarcontrols_AccountMenu_3yD46 {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_Chevron_3x51w {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 .titlebarcontrols_AccountMenu_3yD46:hover:not(.ingame) {
-  background-color: var(--color-master-background-bright);
+  background-color: var(--color-master-font-background-bright);
 }
 .titlebarcontrols_AccountMenu_3yD46:hover .titlebarcontrols_AccountMenu_3yD46 .titlebarcontrols_WalletBalance_2jphj {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_AccountMenu_3yD46:hover .titlebarcontrols_Chevron_3x51w {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_AccountMenu_3yD46.offline {
-  color: var(--color-master-midtone1);
+  color: var(--color-master-font-midtone1);
 }
 .titlebarcontrols_AccountMenu_3yD46.online {
   color: var(--color-master-bright-blue);

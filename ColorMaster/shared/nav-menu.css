@@ -6,7 +6,7 @@
 }
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 .menu_MenuItem_2jXHP.menu_Separator_21GPY {
@@ -15,31 +15,31 @@
 
 .menu_MenuItem_2jXHP.menu_Item_2uiDe:hover {
   background: var(--color-master-foreground-bright);
-  color: var(--color-master-background);
+  color: var(--color-master-font-background);
 }
 
 /* ? notifications menu only */
 .titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP {
   background: var(--color-master-background-bright);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .titlebarcontrols_NotificationHeader_MCa4R .titlebarcontrols_AllNotificationsButton_1oERP:hover {
   background: var(--color-master-foreground);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q {
   background: var(--color-master-background-bright);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .standardtemplates_StandardTemplateDesktop_1tsEf.standardtemplates_Unread_2GC8q:hover {
   background: var(--color-master-foreground);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_StandardNotificationSubText_2XcN2 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_Title_1WlRE,
 .notificationcontent_TimestampDesktop_1N5mc,
 .standardtemplates_StandardTemplateDesktop_1tsEf .standardtemplates_Icon_19g_L{
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }

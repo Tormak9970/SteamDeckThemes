@@ -2,18 +2,18 @@
 button.DialogButton,
 .image_Btn_3YohC.Panel.Focusable {
   background: var(--color-master-midtone4);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 button.DialogButton:hover,
 .image_Btn_3YohC.Panel.Focusable:hover {
   background: var(--color-master-foreground);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover,
 button.DialogButton:enabled:active.gpfocus {
   background: var(--color-master-foreground);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? Dropdowns */
@@ -28,12 +28,12 @@ button.DialogButton:enabled:active.gpfocus {
 /* ? Text fields */
 /* TODO ? */
 .DialogTextInputBase, ._DialogInputContainer {
-  color: var(--color-master-foreground);
-  background-color: var(--color-master-midtone1);
+  color: var(--color-master-font-foreground);
+  background-color: var(--color-master-font-midtone1);
 }
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
   background: var(--color-master-background-dark);
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .DialogInput_ClearAction .SVGIcon_X_Line line {
   stroke: var(--color-master-foreground);

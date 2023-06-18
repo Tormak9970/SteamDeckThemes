@@ -1,6 +1,6 @@
 {
   "name": "Color Master",
-  "description": "Full control over your Steam Client",
+  "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
   "version": "v1.0.0",
   "manifest_version": 7,
@@ -55,18 +55,290 @@
     "Desktop Colored Toggles": {}
   },
   "patches": {
-    "Enabled": {
+    "Background": {
       "type": "none",
       "values": {
         "_": {}
       },
       "components": [
         {
-          "name": "Main Color",
+          "name": "Background Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#121212",
+          "css_variable": "color-master-background-dark",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Background",
           "type": "color-picker",
           "on": "_",
           "default": "#1c1b19",
           "css_variable": "color-master-background",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Background Bright",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#918175",
+          "css_variable": "color-master-background-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Foreground",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#BAA67F",
+          "css_variable": "color-master-foreground",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Foreground Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#FCE8C3",
+          "css_variable": "color-master-foreground-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#262626",
+          "css_variable": "color-master-midtone1",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#444444",
+          "css_variable": "color-master-midtone2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 3",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#4E4E4E",
+          "css_variable": "color-master-midtone3",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 4",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#767676",
+          "css_variable": "color-master-midtone4",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 5",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#949494",
+          "css_variable": "color-master-midtone5",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2C78BF",
+          "css_variable": "color-master-highlight",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#98BC37",
+          "css_variable": "color-master-highlight2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Warning",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#F75341",
+          "css_variable": "color-master-warning",
+          "tabs": [ ".*" ]
+        }
+      ]
+    },
+    "Text": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#BAA67F",
+          "css_variable": "color-master-font-foreground",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Bright Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#FCE8C3",
+          "css_variable": "color-master-font-foreground-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#1C1B19",
+          "css_variable": "color-master-font-background",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Bright Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#918175",
+          "css_variable": "color-master-font-background-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#262626",
+          "css_variable": "color-master-font-midtone1",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 4",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#767676",
+          "css_variable": "color-master-font-midtone4",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 5",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#949494",
+          "css_variable": "color-master-font-midtone5",
+          "tabs": [ ".*" ]
+        }
+      ]
+    },
+    "Background Gradient": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Stop 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#cfc9c1",
+          "css_variable": "color-master-background2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 3",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#42392b",
+          "css_variable": "color-master-background3",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 4",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2f2a24",
+          "css_variable": "color-master-background4",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 5",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#50473e",
+          "css_variable": "color-master-background5",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 6",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#7f756b",
+          "css_variable": "color-master-background6",
+          "tabs": [ ".*" ]
+        }
+      ]
+    },
+    "Community Content Gradient": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Stop 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#776255",
+          "css_variable": "color-master-background-orange",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#5d514c",
+          "css_variable": "color-master-background-orang2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 3",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#39322d",
+          "css_variable": "color-master-background-orange3",
+          "tabs": [ ".*" ]
+        }
+      ]
+    },
+    "Game Page Gradient": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Stop 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#695e54",
+          "css_variable": "color-master-gp-grad-stop1",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#b89c7f",
+          "css_variable": "color-master-gp-grad-stop2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Stop 3",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#ccb399",
+          "css_variable": "color-master-gp-grad-stop3",
           "tabs": [ ".*" ]
         }
       ]

@@ -7,17 +7,17 @@
 
 /* ? header */
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_AlbumName_oW5xv {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_ArtistName_2bTdS {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_AlbumStats_1qxAZ,
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l .appdetailssoundtrack_StatsAndParent_3pUBu .appdetailssoundtrack_ParentGameLink_2pcGG .appdetailssoundtrack_ParentAppName_3C_pT {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   text-decoration: var(--color-master-foreground-bright);
 }
 
@@ -46,15 +46,15 @@ button.soundtrackcontrols_IconButton_1iFnR:hover svg path {
   background-color: rgb(var(--color-master-foreground_rgb), 0.3);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackLength_157uf {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackNumber_NZZPO, .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Playing_jMohE .appdetailssoundtrack_TrackLength_157uf {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP.appdetailssoundtrack_Playing_jMohE {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }

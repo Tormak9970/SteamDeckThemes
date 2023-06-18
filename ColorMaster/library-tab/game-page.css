@@ -6,7 +6,7 @@
   background-image: radial-gradient(100% 100% at 45% 35%, var(--color-master-background) 0%, var(--color-master-background-dark) 100%);
 }
 body, body.shared_common_v6_3r3Le {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? game info */
@@ -82,7 +82,7 @@ body, body.shared_common_v6_3r3Le {
 .appdetailsgameinfopanel_Container_2jPMy,
 .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1,
 .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsgameinfopanel_Icon_2jSAw.Focusable .SVGIcon_Button {
   fill: var(--color-master-foreground);
@@ -101,49 +101,49 @@ img.appdetailsfeatureicon_Icon_2RwHE {
   rgba(var(--color-master-foreground-bright_rgb), 0.1) 100%) !important;
 }
 .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.356);
 }
 .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Label_1VoVz {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Icon_2RwHE {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? spotlight */
 /** recommend review  */
 .appdetailsspotlight_ReviewContainer_3LE-6,
 .writereview_RatingContainer_2SAb6 {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .writereview_RatingContainer_2SAb6 .writereview_RecommendGame_My1be {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 /** post game summary */
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .pageablecontainer_PageableCloseButton_2K2No.pageablecontainer_Small_1Vqv0 svg line {
   stroke: var(--color-master-foreground);
 }
 .spotlightgameplaysummary_EventHeaderBlock_1jiiO {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Desc_2gLHb {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 
@@ -155,20 +155,20 @@ img.appdetailsfeatureicon_Icon_2RwHE {
   #322d28 100%);
 }
 .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_TopSection_1LRR7 .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_TopSection_1LRR7 .appdetailsachievementssection_TextSection_1s_9c {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_Unlocked_2KA0p {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 
 /* ? General activity styles */
 .appdetailssectionheader_SectionHeader_1Q2q_ {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? Add activity comment */
@@ -184,17 +184,17 @@ img.appdetailsfeatureicon_Icon_2RwHE {
 }
 /** post button */
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 /** emoji button */
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
-  background-color: var(--color-master-foreground);
+  background-color: var(--color-master-font-foreground);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu line,
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu circle,
@@ -203,26 +203,26 @@ img.appdetailsfeatureicon_Icon_2RwHE {
 }
 /** emoji window */
 .addonpicker_SectionedPageTitle_1rBPd, .addonpicker_SectionTitle_3ff2f {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 /** view latest news */
 .appdetailsactivitysection_ViewLastNews_1EC1x {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
-  background-color: var(--color-master-foreground);
-  color: var(--color-master-foreground-bright);
+  background-color: var(--color-master-font-foreground);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? activity */
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_HeadlineGameName_Gy1Y7 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7,
@@ -244,16 +244,16 @@ img.appdetailsfeatureicon_Icon_2RwHE {
   fill: var(--color-master-foreground-bright);
 }
 .appactivityday_PartnerEventTextOnly_Title_1Cva_ {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 /** load more button */
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
   background-color: rgba(var(--color-master-background6_rgb), 0.1);
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.356);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
   background: linear-gradient(to right,
@@ -269,37 +269,37 @@ img.appdetailsfeatureicon_Icon_2RwHE {
     rgba(var(--color-master-gp-grad-stop1_rgb), 0.1) 100%);
 }
 .appdetailssection_Highlight_38t1m {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   background: linear-gradient(to right,
     rgba(var(--color-master-foreground-bright2_rgb), 0.1) 0%, 
     rgba(var(--color-master-foreground-bright_rgb), 0.1) 95%);
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.356);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appactivityday_PartnerEventType_1ujzu {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.5;
 }
 .appactivityday_PartnerEventMediumImage_Title_1gljE {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover .appactivityday_PartnerEventMediumImage_Title_1gljE {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 1;
 }
 .appactivityday_PartnerEventMediumImage_Summary_Ru7OB {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
 .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
 .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt .comment_thread_RatingIcon_2AVfX,
 .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou .comment_thread_RatingIcon_2AVfX,
@@ -316,7 +316,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn,
 .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc,
 .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
 .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
@@ -332,23 +332,23 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 
 /* ? Additional content */
 .appdetailsadditionalcontentsection_AdditionalItem_11iUU .appdetailsadditionalcontentsection_Title_QDrH3 {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_Artist_3NeZL {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsadditionalcontentsection_Soundtracks_LO26Z .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6 .appdetailsadditionalcontentsection_TracksDetails_3Yvj5 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 
 /* ? friends container */
 .appdetailsfriendssection_Subsection_39bm0 .appdetailsfriendssection_SubsectionHeader_nTb1N {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .offline .personanameandstatus_playerName_r62qz,
 .personanameandstatus_playerNicknameBracket_2aXev {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .appdetailsfriendssection_AvatarAndLabel_1GCZA .appdetailsfriendssection_PlaytimeStatus_1xGH4 {
@@ -357,47 +357,47 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 
 /* ? achievements container */
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsachievementssection_AdditionalItem_2aVnD {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
 }
 .appdetailsachievementssection_Remainder_2gISW .appdetailsachievementssection_RemainderText_1-H7t {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   text-shadow: none;
 }
 
 /* ? badge container */
 .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeName_3ca2d {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? screenshots container */
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoneTaken_2_Wwn,
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_InstructionText_2QCkj {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 
 /* ? my review container */
 .appdetailsreviewsection_PlayedForTime_BDa6l {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
   background-color: rgba(var(--color-master-foreground_rgb),.1);
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.356);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailsreviewsection_ReviewText_3k8QE {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentIcon_szq-Q,
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_UpVotesIcon_2cFKq {
@@ -408,14 +408,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   fill: var(--color-master-foreground-bright);
 }
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentsLabel_2EyEa {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_CommentCount_2FYBw {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.8;
 }
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k:hover .appdetailsreviewsection_CommentsLabel_2EyEa, .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k:hover .appdetailsreviewsection_CommentCount_2FYBw {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 
 /* ? community content */
@@ -438,25 +438,25 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
     rgba(var(--color-master-background4_rgb), 0.3) 2px,
     rgba(var(--color-master-background-orange2), 0) 24px,
     rgba(var(--color-master-background-orange2), 0.35) 100%);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Title_2xEgU {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Description_xsBpz {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
-  background-color: var(--color-master-foreground);
+  background-color: var(--color-master-font-foreground);
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt .appdetailscommunityfeed_Count_NlL1t {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
   background: var(--color-master-background);
@@ -465,14 +465,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 /* ? Achievements window */
 /** close button */
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h {
-  background-color: var(--color-master-midtone4);
+  background-color: var(--color-master-font-midtone4);
   border: 1px solid var(--color-master-foreground);
 }
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h svg line {
   stroke: var(--color-master-foreground);
 }
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h:hover {
-  background-color: var(--color-master-foreground);
+  background-color: var(--color-master-font-foreground);
   border: 1px solid var(--color-master-foreground-bright);
 }
 /** background */
@@ -496,69 +496,69 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   background-color: rgba(var(--color-master-background-orange), 0.2);
 }
 .achievementsheader_Stat_28omE .achievementsheader_StatLabelAndValue_C17Op .achievementsheader_Label_17zZl {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .gamepadtabbedpage_Tab_3eEbS {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .gamepadtabbedpage_Tab_3eEbS:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.656);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   opacity: 0.7;
 }
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
   opacity: 1;
   background-color: rgba(var(--color-master-foreground_rgb),.356);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b:hover {
   background-color: rgba(var(--color-master-foreground_rgb),.656);
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .achievementslist_GlobalAchievementsListHeader_2q8Mm .achievementslist_HeaderText_OAV6Q {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 /** entries */
 .achievementslist_ListTitle_IM0uE {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .achievementslist_AchievementListItemBase_2Kmn7 {
-  background-color: var(--color-master-background);
+  background-color: var(--color-master-font-background);
 }
 .achievementslist_AchievementTitle_17dhG {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .achievementslist_AchievementDescription_1WP2Y {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .achievementslist_AchievementGlobalPercentage_VQbek {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 .achievementslist_UnlockDate_2fFW2 {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
   opacity: 0.7;
 }
 .achievementiconbase_HiddenLabel_2yMyP {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
   background: var(--color-master-midtone2);
 }
 .progressbar_ProgressBar_1-nHj {
   background: var(--color-master-background-dark);
 }
 .achievementslist_ProgressCount_2LZ4v {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 /** global entries */
 .achievementslist_GlobalAchievementListItem_316Uo {
-  background-color: var(--color-master-background);
+  background-color: var(--color-master-font-background);
 }
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Title_3LS_N {
-  color: var(--color-master-foreground-bright);
+  color: var(--color-master-font-foreground-bright);
 }
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Description_231ll {
-  color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground);
 }
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_ProgressFill_2lgHV {
   background-color: rgba(var(--color-master-background6_rgb), 0.2);
