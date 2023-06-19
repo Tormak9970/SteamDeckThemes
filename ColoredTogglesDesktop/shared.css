@@ -51,7 +51,8 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 
 /* ? News icon */
 .titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi {
-  background-color: var(--colored-toggles-desktop-main-color);
+  background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
@@ -205,7 +206,8 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 
 /* ? Achievement bar background */
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background-color: var(--colored-toggles-desktop-main-color);
+  background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
 }
 
 /* ? Recent play icon */
