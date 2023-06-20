@@ -27,7 +27,7 @@
   color: var(--color-master-font-foreground);
 }
 .libraryhomenewupdates_EventOptions_2-p7s>div {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
 }
 .libraryhomenewupdates_EventOptions_2-p7s:hover > div {
   background-color: var(--color-master-highlight);
@@ -60,7 +60,7 @@
 }
 /** bottom buttons */
 .partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
-  background: var(--color-master-midtone4);
+  background: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
 .partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj:hover {
@@ -77,25 +77,25 @@
 }
 /** side buttons */
 .apppartnereventspage_CloseButton_35HbM {
-  background-color: var(--color-master-font-midtone4);
-  border: 1px solid var(--color-master-foreground-bright);
+  background-color: var(--color-master-midtone3);
+  border: 1px solid var(--color-master-midtone5);
 }
 .apppartnereventspage_CloseButton_35HbM svg line {
-  stroke: var(--color-master-foreground-bright);
+  stroke: var(--color-master-midtone5);
 }
 .apppartnereventspage_CloseButton_35HbM:hover {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
   border: 1px solid var(--color-master-foreground-bright);
 }
 .apppartnereventspage_CloseButton_35HbM:hover svg line {
   stroke: var(--color-master-foreground-bright);
 }
 .apppartnereventspage_ScrollButton_357Gu {
-  background-color: var(--color-master-font-midtone4);
-  border: 1px solid var(--color-master-foreground-bright);
+  background-color: var(--color-master-midtone3);
+  border: 1px solid var(--color-master-midtone5);
 }
 .apppartnereventspage_ScrollButton_357Gu svg polygon {
-  fill: var(--color-master-foreground-bright);
+  fill: var(--color-master-midtone5);
 }
 .apppartnereventspage_ScrollButton_357Gu:hover {
   background-color: var(--color-master-font-foreground);
@@ -107,7 +107,7 @@
 
 /* ? game news set reminder dropdown */
 .eventreminder_ReminderBackground_GDF1p {
-  background: var(--color-master-midtone4);
+  background: var(--color-master-midtone3);
 }
 .eventreminder_ReminderOptionsHeader_1GBAq {
   color: var(--color-master-font-foreground-bright);
@@ -135,7 +135,7 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
   transition-duration: .2s;
   transition-timing-function: ease-out;
   box-shadow: 2px 2px 5px rgba(0,0,0,.2);
-  background: var(--color-master-midtone4);
+  background: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
 .partnereventshared_FlexRowContainer_elLwm.discussionwidget_ShareButtonContainer_3tMDZ .Focusable:hover {
@@ -177,7 +177,7 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
   background-color: var(--color-master-midtone2);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L:hover {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L polyline {
   stroke: var(--color-master-foreground);
@@ -191,7 +191,7 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
 }
 /** add shelf dropdown content */
 .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {
-  background: var(--color-master-midtone4) !important;
+  background: var(--color-master-midtone3) !important;
   color: var(--color-master-font-foreground-bright);
 }
 .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt:hover {
@@ -200,7 +200,7 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
 }
 /** styles for when reodering */
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   color: var(--color-master-font-foreground-bright);

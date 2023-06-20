@@ -44,7 +44,7 @@
 
 /* ? Selected game */
 .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  background-color: var(--color-master-font-midtone1);
+  background-color: var(--color-master-midtone1);
 }
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover,
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
@@ -52,7 +52,7 @@
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 
 /* ? Game uninstalled color */
@@ -67,35 +67,35 @@
 
 /* ? Home button */
 .gamelisthome_Bar_3pSPl {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .gamelisthome_Label_3O48L {
   color: var(--color-master-font-foreground-bright);
 }
 .gamelisthome_Bar_3pSPl:hover {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
   color: var(--color-master-font-foreground-bright);
 }
 .gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
-  background-color: var(--color-master-font-midtone4);
-  fill: var(--color-master-midtone5);
+  background-color: var(--color-master-midtone3);
+  fill: var(--color-master-midtone4);
   color: var(--color-master-font-foreground-bright);
 }
 
 /* ? View collections button */
 .gamelisthome_Bar_3pSPl .gamelisthome_CollectionIconBox_2tyaV {
-  background-color: var(--color-master-font-foreground-bright);
+  background-color: var(--color-master-foreground-bright);
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
-  background-color: var(--color-master-font-foreground-bright);
+  background-color: var(--color-master-foreground-bright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx .gamelisthome_CollectionIconBox_2tyaV {
-  background-color: var(--color-master-font-foreground-bright);
+  background-color: var(--color-master-foreground-bright);
 }
 
 /* ? Filters row */
@@ -122,7 +122,7 @@
 /* ? Filters dropdown */
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
   color: var(--color-master-font-foreground-bright);
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m .gamelistdropdown_Arrow_15aGn polygon {
   fill: var(--color-master-foreground-bright);
@@ -130,7 +130,7 @@
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
   color: var(--color-master-font-foreground-bright);
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn polygon {
   fill: var(--color-master-foreground-bright);
@@ -142,14 +142,14 @@
 
 /* ? Filter search button */
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
   fill: var(--color-master-foreground-bright);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_ .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path,
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
@@ -158,10 +158,10 @@
 
 /* ? Filter search pane */
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
   color: var(--color-master-highlight2);
@@ -171,16 +171,16 @@
 }
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
   background: var(--color-master-background);
-  color: var(--color-master-midtone4)
+  color: var(--color-master-midtone3)
 }
 
 /* ? Scroll to top button */
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
   border: 1px solid var(--color-master-foreground-bright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow {
-  background-color: var(--color-master-font-background-bright);
+  background-color: var(--color-master-background-bright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
   stroke: var(--color-master-foreground-bright);

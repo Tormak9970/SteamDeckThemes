@@ -35,6 +35,8 @@
     "library-tab/soundtrack.css": [ "SteamLibraryWindow|Steam" ],
     "library-tab/footer.css": [ "SteamLibraryWindow|Steam" ],
 
+    "downloads-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+
     "store-tab/index.css": [ "SteamLibraryWindow|Steam" ],
 
     "community-tab/index.css": [ "SteamLibraryWindow|Steam" ],

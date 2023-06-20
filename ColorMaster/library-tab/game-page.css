@@ -120,7 +120,7 @@ img.appdetailsfeatureicon_Icon_2RwHE {
 /** recommend review  */
 .appdetailsspotlight_ReviewContainer_3LE-6,
 .writereview_RatingContainer_2SAb6 {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .writereview_RatingContainer_2SAb6 .writereview_RecommendGame_My1be {
   color: var(--color-master-font-foreground-bright);
@@ -184,14 +184,14 @@ img.appdetailsfeatureicon_Icon_2RwHE {
 }
 /** post button */
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
   color: var(--color-master-font-foreground-bright);
 }
 /** emoji button */
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
   background-color: var(--color-master-font-foreground);
@@ -210,7 +210,7 @@ img.appdetailsfeatureicon_Icon_2RwHE {
   color: var(--color-master-font-foreground);
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
   color: var(--color-master-font-foreground-bright);
 }
 
@@ -363,7 +363,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
   color: var(--color-master-font-foreground);
 }
 .appdetailsachievementssection_AdditionalItem_2aVnD {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
 }
 .appdetailsachievementssection_Remainder_2gISW .appdetailsachievementssection_RemainderText_1-H7t {
   color: var(--color-master-font-foreground-bright);
@@ -453,7 +453,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   color: var(--color-master-font-foreground);
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt .appdetailscommunityfeed_Count_NlL1t {
   color: var(--color-master-font-foreground-bright);
@@ -465,14 +465,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 /* ? Achievements window */
 /** close button */
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h {
-  background-color: var(--color-master-font-midtone4);
+  background-color: var(--color-master-midtone3);
   border: 1px solid var(--color-master-foreground);
 }
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h svg line {
   stroke: var(--color-master-foreground);
 }
 .library_AchievementsOverlayContainer_HruWV .library_AchievementsPageContainer_gioyP .library_CloseButton_iYW5h:hover {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
   border: 1px solid var(--color-master-foreground-bright);
 }
 /** background */
@@ -524,7 +524,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   color: var(--color-master-font-foreground-bright);
 }
 .achievementslist_AchievementListItemBase_2Kmn7 {
-  background-color: var(--color-master-font-background);
+  background-color: var(--color-master-background);
 }
 .achievementslist_AchievementTitle_17dhG {
   color: var(--color-master-font-foreground-bright);
@@ -552,7 +552,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 /** global entries */
 .achievementslist_GlobalAchievementListItem_316Uo {
-  background-color: var(--color-master-font-background);
+  background-color: var(--color-master-background);
 }
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Title_3LS_N {
   color: var(--color-master-font-foreground-bright);

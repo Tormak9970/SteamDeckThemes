@@ -9,7 +9,7 @@
 
 /* ? game hover styles */
 .appportraithover_AppPortraitHover_2sGn0 {
-  background-color: var(--color-master-font-foreground);
+  background-color: var(--color-master-foreground);
 }
 .appportraithover_AppTitle_1Kdi2 {
   color: var(--color-master-font-foreground-bright);
@@ -44,7 +44,7 @@
 /** collection sort dropdown body */
 .appgrid_SortingDropDownContainer_1ZpBQ > div.DesktopUI,
 .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ > div {
-  background: var(--color-master-midtone4) !important;
+  background: var(--color-master-midtone3) !important;
 }
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS.DesktopUI,
 .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {

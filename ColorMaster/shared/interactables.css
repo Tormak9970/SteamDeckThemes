@@ -1,7 +1,7 @@
 /* ? Buttons */
 button.DialogButton,
 .image_Btn_3YohC.Panel.Focusable {
-  background: var(--color-master-midtone4);
+  background: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
 button.DialogButton:hover,
@@ -29,7 +29,7 @@ button.DialogButton:enabled:active.gpfocus {
 /* TODO ? */
 .DialogTextInputBase, ._DialogInputContainer {
   color: var(--color-master-font-foreground);
-  background-color: var(--color-master-font-midtone1);
+  background-color: var(--color-master-midtone1);
 }
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
   background: var(--color-master-background-dark);
