@@ -13,6 +13,17 @@
   background-color: var(--color-master-background);
 }
 
+/* ? Download settings button */
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+  background-color: var(--color-master-midtone3);
+  color: var(--color-master-font-foreground-bright);
+}
+
 /* ? Text */
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
   color: var(--color-master-font-foreground-bright);
@@ -26,19 +37,57 @@
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC {
   color: var(--color-master-font-foreground);
 }
-/** Download settings button */
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv,
+.downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv {
+  color: var(--color-master-font-foreground-bright);
+}
+.downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
+  color: var(--color-master-font-foreground);
+}
+
+/* ? Body Sections */
+.downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
+  background-color: rgba(var(--color-master-foreground-bright_rgb), 0.3);
+}
+.downloads_AutoUpdateHours_117rQ {
+  color: var(--color-master-font-foreground);
+}
+
+/* ? Download list entries */
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  color: var(--color-master-font-foreground-bright);
+}
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
+  color: var(--color-master-font-foreground);
+}
+.downloads_SectionItemStatus_1Sygg {
+  color: var(--color-master-font-foreground);
+}
+
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
   background-color: var(--color-master-midtone3);
+}
+
+.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
+  color: var(--color-master-midtone4);
+}
+
+/** section buttons */
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:active,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+  background-color: var(--color-master-midtone4);
   color: var(--color-master-font-foreground-bright);
 }
 
-/* ? Up Next */
+.downloads_SectionItem_1VNuY:hover .downloads_Button_3oavR.DialogButton:enabled {
+  background-color: var(--color-master-midtone5);
+}
 
-/* ? Scheduled */
-
-/* ? Download list entries */
+.downloads_SectionItem_1VNuY:hover .downloads_Button_3oavR.DialogButton:enabled:hover {
+  background-color: var(--color-master-foreground);
+}
