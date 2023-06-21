@@ -91,3 +91,13 @@
 .downloads_SectionItem_1VNuY:hover .downloads_Button_3oavR.DialogButton:enabled:hover {
   background-color: var(--color-master-foreground);
 }
+
+/* ? clear all button */
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+  background-color: var(--color-master-midtone4);
+  color: var(--color-master-font-foreground-bright);
+}
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled {
+  background-color: var(--color-master-foreground);
+  color: var(--color-master-font-foreground-bright);
+}
