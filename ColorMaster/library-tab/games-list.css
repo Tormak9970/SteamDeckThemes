@@ -177,7 +177,7 @@
 /* ? Scroll to top button */
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
   background-color: var(--color-master-midtone3);
-  border: 1px solid var(--color-master-foreground-bright);
+  border: 1px solid var(--color-master-midtone4);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow {
   background-color: var(--color-master-background-bright);

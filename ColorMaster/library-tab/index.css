@@ -4,7 +4,7 @@
 
 /* ? dyn collection icon */
 .SVGIcon_Button.SVGIcon_DynamicCollection {
-  fill: var(--color-master-green);
+  fill: var(--color-master-highlight);
 }
 
 /* ? game hover styles */

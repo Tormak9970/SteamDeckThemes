@@ -6,6 +6,7 @@
   background: var(--color-master-background-dark);
 }
 .libraryhome_LibraryHome_3Sb2o {
+  border-top: 1px solid var(--color-master-background-dark);
   background-image: linear-gradient(to bottom, var(--color-master-background) 0%, var(--color-master-background-dark) 80%);
 }
 
