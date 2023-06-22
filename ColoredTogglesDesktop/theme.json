@@ -1,6 +1,6 @@
 {
   "name": "Desktop Colored Toggles",
-  "version": "v1.1",
+  "version": "v1.2",
   "author": "Tormak",
   "target": "Desktop",
   "description": "Colors all inputs (buttons, toggles, icons, labels, and progress bars) to a chosen color.",

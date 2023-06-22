@@ -67,6 +67,10 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 	fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX:hover svg {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+
 /* ? Update icon on a play button on a game */
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg {
 	fill: var(--colored-toggles-desktop-friends-text-color);
@@ -198,6 +202,7 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 .downloads_Button_3oavR {
 	background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
 
 .progressbar_Percent_2_0Jo {
@@ -214,4 +219,13 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4) {
   background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
+}
+
+/* ? Row Select */
+.radio_Button_3lwcR.radio_Active_3ZBFo,
+.radio_Button_3lwcR.radio_Active_3ZBFo:hover {
+  background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
 }
