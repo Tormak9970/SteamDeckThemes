@@ -1,6 +1,6 @@
 /* ? background */
 .libraryhome_UpdatesContainer_17uEB {
-  background: radial-gradient(100% 100% at 33% 45%, var(--color-master-background-dark) 30%, #101314 100%);
+  background: radial-gradient(100% 100% at 33% 45%, var(--color-master-background-dark) 30%, #141210 100%);
 }
 .libraryhome_Container_2gSXC {
   background: var(--color-master-background-dark);
@@ -217,4 +217,20 @@ a.eventreminder_ReminderOption_RNhWc:not(.eventreminder_Unverified_PNHvX):hover 
 .library_Container_3xRRJ *::-webkit-scrollbar-corner,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
   color: var(--color-master-font-background-bright);
+}
+
+/* ? dropdowns */
+.libraryhomeshowcases_CollectionDropDown_1YdRd > .DialogInputLabelGroup._DialogLayout ._DialogInputContainer.DialogDropDown {
+  background-color: transparent;
+  color: var(--color-master-font-foreground);
+}
+.libraryhomeshowcases_CollectionDropDown_1YdRd > .DialogInputLabelGroup._DialogLayout ._DialogInputContainer.DialogDropDown:hover {
+  background-color: transparent;
+  color: var(--color-master-font-foreground-bright);
+}
+.libraryhomeshowcases_CollectionDropDown_1YdRd > .DialogInputLabelGroup._DialogLayout ._DialogInputContainer .DialogDropDown_Arrow svg {
+  fill: var(--color-master-font-foreground);
+}
+.libraryhomeshowcases_CollectionDropDown_1YdRd > .DialogInputLabelGroup._DialogLayout ._DialogInputContainer:hover .DialogDropDown_Arrow svg {
+  fill: var(--color-master-font-foreground-bright);
 }

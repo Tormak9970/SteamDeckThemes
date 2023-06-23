@@ -1,12 +1,25 @@
 /* ? Buttons */
 button.DialogButton,
-.image_Btn_3YohC.Panel.Focusable {
+.image_Btn_3YohC.Panel.Focusable,
+.settings_SettingsDialogButton_3epr8.DesktopUI,
+.DesktopUI .settings_SettingsDialogButton_3epr8,
+.settings_SettingsDialogFatButton_UqEiV.DesktopUI,
+.DesktopUI .settings_SettingsDialogFatButton_UqEiV,
+.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2 {
   background: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
+button.accountpanel_FatButton_TEWms svg,
+button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw {
+  color: var(--color-master-font-foreground-bright);
+}
+button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
+  color: var(--color-master-font-foreground);
+}
 button.DialogButton:hover,
-.image_Btn_3YohC.Panel.Focusable:hover {
-  background: var(--color-master-foreground);
+.image_Btn_3YohC.Panel.Focusable:hover,
+.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2:hover {
+  background: var(--color-master-midtone4);
   color: var(--color-master-font-foreground-bright);
 }
 button.DialogButton:enabled:active,
@@ -15,15 +28,84 @@ button.DialogButton:enabled:active.gpfocus {
   background: var(--color-master-foreground);
   color: var(--color-master-font-foreground-bright);
 }
+button.DialogButton:disabled,
+button.DialogButton:disabled:hover,
+button.DialogButton.Disabled,
+button.DialogButton.Disabled:hover {
+  background: var(--color-master-midtone3);
+  color: var(--color-master-font-foreground-bright);
+  opacity: 0.5;
+}
 
 /* ? Dropdowns */
-/* TODO */
+._DialogInputContainer.DialogDropDown {
+  background-color: var(--color-master-midtone3);
+  color: var(--color-master-font-foreground-bright);
+}
+._DialogInputContainer.DialogDropDown:hover {
+  background-color: var(--color-master-midtone4);
+  color: var(--color-master-font-foreground-bright);
+}
+._DialogInputContainer .DialogDropDown_Arrow svg {
+  fill: var(--color-master-font-foreground-bright);
+}
 
 /* ? Toggles */
-/* TODO ? */
+.gamepaddialog_ToggleRail_2JtC3 {
+  background: var(--color-master-midtone3);
+}
+.gamepaddialog_ToggleSwitch_3__OD {
+  background: var(--color-master-foreground-bright);
+}
+.gamepaddialog_FieldDescription_2OJfk.DesktopUI,
+.DesktopUI .gamepaddialog_FieldDescription_2OJfk {
+  color: var(--color-master-font-foreground);
+}
+
+/* ? Slider */
+.gamepadslider_SliderHandle_2yVKj {
+  background: var(--color-master-foreground-bright);
+}
+.gamepadslider_SliderTrack_Mq25N {
+  background: var(--color-master-background-dark);
+}
+
+/* ? Row Select */
+.radio_Group_2qYC3 {
+  background: var(--color-master-background-dark);
+  color: var(--color-master-font-foreground-bright);
+}
+.radio_Button_3lwcR {
+  background: var(--color-master-midtone1);
+}
+.radio_Button_3lwcR:hover {
+  background: var(--color-master-midtone2);
+}
 
 /* ? Checkboxes */
 /* TODO ? */
+
+/* ? Accordion */
+/* TODO ? */
+.notificationssettings_NotificationSection_BRmrC button.DialogButton {
+  background: var(--color-master-midtone3);
+  color: var(--color-master-font-foreground-bright);
+}
+.notificationssettings_NotificationSection_BRmrC button.DialogButton:hover {
+  background: var(--color-master-foreground);
+}
+.notificationssettings_NotificationGroupExpanded_21Uc0 {
+  background: var(--color-master-midtone2);
+}
+.notificationssettings_NotificationGroupExpanded_21Uc0 button.DialogButton {
+  background: var(--color-master-midtone4);
+}
+.notificationssettings_NotificationPrefDetails_1u5y7 {
+  background-color: var(--color-master-background);
+}
+.DesktopUI .DialogToggle_Label {
+  color: var(--color-master-font-foreground-bright);
+}
 
 /* ? Text fields */
 /* TODO ? */

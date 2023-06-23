@@ -2,7 +2,7 @@
   "name": "Color Master",
   "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
-  "version": "v1.0.0",
+  "version": "v1.2.0",
   "manifest_version": 7,
   "target": "Desktop",
   "inject": {
@@ -24,7 +24,8 @@
     "shared/interactables.css": [
       "SteamLibraryWindow|Steam",
       "Special Offer.*",
-      "https://store.steampowered.com/marketingmessages.*"
+      "https://store.steampowered.com/marketingmessages.*",
+      "Steam Settings"
     ],
 
     "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
@@ -48,7 +49,7 @@
     "secondary-windows/game-properties.css": [],
     "secondary-windows/remove-from-lib.css": [],
     "secondary-windows/logout.css": [],
-    "secondary-windows/settings.css": [],
+    "secondary-windows/settings.css": [ "Steam Settings" ],
     "secondary-windows/notes.css": [],
     "secondary-windows/screenshots.css": [],
     "secondary-windows/change-nickname.css": []
