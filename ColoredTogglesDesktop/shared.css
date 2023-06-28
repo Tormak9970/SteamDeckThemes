@@ -1,6 +1,7 @@
 :root {
   /* default should be #1a9fff */
 	--colored-toggles-desktop-main-color: orange;
+	--colored-toggles-desktop-main-color_hover: #ff7b00;
 	--colored-toggles-desktop-static-color: var(--colored-toggles-desktop-main-color);
 	--colored-toggles-desktop-friends-text-color: black;
 	--colored-toggles-desktop-animation: none;
@@ -28,6 +29,9 @@
 	background: var(--colored-toggles-desktop-main-color) !important;
 	animation: var(--colored-toggles-desktop-animation) !important;
 }
+.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T:hover .gamepaddialog_ToggleRail_2JtC3::before {
+	background: var(--colored-toggles-desktop-main-color_hover) !important;
+}
 .gamepadslider_SliderTrack_Mq25N::before {
   background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
@@ -49,6 +53,13 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 	animation: var(--colored-toggles-desktop-animation);
 }
 
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H):hover .supernav_MenuButton_19axK {
+	color: var(--colored-toggles-desktop-main-color_hover);
+}
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H):hover .supernav_MenuButton_19axK::after {
+  background: var(--colored-toggles-desktop-main-color_hover);
+}
+
 /* ? News icon */
 .titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi {
   background: var(--colored-toggles-desktop-main-color);
@@ -66,13 +77,72 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX > svg {
 	fill: var(--colored-toggles-desktop-friends-text-color);
 }
-
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX:hover svg {
 	fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
 /* ? Update icon on a play button on a game */
 :not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover svg {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover svg {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Update,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play {
+  background: var(--colored-toggles-desktop-main-color);
+	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Update .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play .SVGIcon_Button {
+	fill: var(--colored-toggles-desktop-friends-text-color);
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install:focus,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus {
+  background: var(--colored-toggles-desktop-main-color_hover);
+	animation: var(--colored-toggles-desktop-animation);
+	color: var(--colored-toggles-desktop-friends-text-color);
+}
+
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Stream:focus .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Install:focus .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Connect:focus .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Launch:focus .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.PlayMusic:focus .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play:hover .SVGIcon_Button,
+.DesktopUI .library_ContextMenuAction_Z5iAX.Play:focus .SVGIcon_Button {
 	fill: var(--colored-toggles-desktop-friends-text-color);
 }
 
@@ -82,10 +152,13 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 }
 
 /* ? Background of play selection button */
-.appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
-:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX:hover {
+.appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
   background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
+}
+
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_Green_3cI5T:hover>.appactionbutton_ButtonChild_2AzIX {
+  background: var(--colored-toggles-desktop-main-color_hover);
 }
 
 /* ? Icon of play selection button */
@@ -112,6 +185,9 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 	background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
 }
+.appactionbutton_ButtonChild_2AzIX:hover {
+	background: var(--colored-toggles-desktop-main-color_hover);
+}
 
 /* ? Download icon on the download button of a game */
 .appactionbutton_ButtonChild_2AzIX > svg path {
@@ -124,10 +200,12 @@ div .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
 }
 
 /* ? Background of download selection button */
-.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
-:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover {
+.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
   background: var(--colored-toggles-desktop-main-color);
 	animation: var(--colored-toggles-desktop-animation);
+}
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX:hover {
+  background: var(--colored-toggles-desktop-main-color_hover);
 }
 
 /* ? Icon of download selection button */
