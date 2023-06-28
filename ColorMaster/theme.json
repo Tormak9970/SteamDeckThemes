@@ -2,7 +2,7 @@
   "name": "Color Master",
   "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
-  "version": "v1.2.0",
+  "version": "v1.4.0",
   "manifest_version": 7,
   "target": "Desktop",
   "inject": {
@@ -150,6 +150,14 @@
           "on": "_",
           "default": "#2C78BF",
           "css_variable": "color-master-highlight",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 1 Hover",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2c89bf",
+          "css_variable": "color-master-highlight_hover",
           "tabs": [ ".*" ]
         },
         {

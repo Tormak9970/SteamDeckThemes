@@ -10,6 +10,7 @@
   --color-master-midtone4:           #767676;
   --color-master-midtone5:           #949494;
   --color-master-highlight:          #2C78BF;
+  --color-master-highlight_hover:    #2c89bf;
   --color-master-highlight2:         #98BC37;
   --color-master-warning:            #F75341;
 
@@ -63,5 +64,6 @@
 
   /* Overriding color of colored toggles */
   --colored-toggles-desktop-main-color: var(--color-master-highlight) !important;
-  --colored-toggles-desktop-friends-text-color: var(--color-master-background) !important;
+  --colored-toggles-desktop-main-color_hover: var(--color-master-highlight_hover) !important;
+  --colored-toggles-desktop-friends-text-color: var(--color-master-font-foreground-bright) !important;
 }
