@@ -2,7 +2,7 @@
   "name": "Color Master",
   "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
-  "version": "v1.4.0",
+  "version": "v1.6.0",
   "manifest_version": 7,
   "target": "Desktop",
   "inject": {
