@@ -24,30 +24,6 @@
   color: var(--color-master-font-foreground-bright);
 }
 
-/* ? Nav bar icons */
-.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
-  background: var(--color-master-background-bright);
-}
-.DesktopUI .title-area-icon.closeButton:hover, .friendsui-container .title-area-icon.closeButton:hover {
-  background: var(--color-master-warning);
-}
-.title-area-icon .SVGIcon_X_Line line,
-.title-area-icon .SVGIcon_Restore polyline, 
-.title-area-icon .SVGIcon_Restore rect,
-.title-area-icon .SVGIcon_Maximize line, 
-.title-area-icon .SVGIcon_Maximize rect, 
-.title-area-icon .SVGIcon_Minimize line {
-  stroke: var(--color-master-foreground) !important;
-}
-.DesktopUI .title-area-icon:hover .SVGIcon_X_Line line,
-.DesktopUI .title-area-icon:hover .SVGIcon_Restore polyline, 
-.DesktopUI .title-area-icon:hover .SVGIcon_Restore rect, 
-.DesktopUI .title-area-icon:hover .SVGIcon_Maximize line,
-.DesktopUI .title-area-icon:hover .SVGIcon_Maximize rect, 
-.DesktopUI .title-area-icon:hover .SVGIcon_Minimize line {
-  stroke: var(--color-master-foreground-bright) !important;
-}
-
 /* ? Big picture toggle */
 .titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3 {
   color: var(--color-master-font-foreground);

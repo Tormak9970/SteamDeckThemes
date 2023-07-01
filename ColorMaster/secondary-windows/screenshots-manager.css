@@ -1,0 +1,18 @@
+.screenshotmanagerdialog_Text_1DrNv {
+  color: var(--color-master-font-foreground-bright);
+}
+
+.screenshotmanagerdialog_Metadata_3GkZs,
+.screenshotmanagerdialog_CloudStorageImpact_XXxRY {
+  color: var(--color-master-font-foreground);
+}
+
+.screenshotmanagerdialog_SpoilerField_3Hvsr .screenshotmanagerdialog_Label_9TcOq,
+.screenshotmanagerdialog_VisibilityField_27wV3 .screenshotmanagerdialog_Label_9TcOq {
+  color: var(--color-master-font-foreground-bright);
+}
+
+.screenshotmanagerdialog_CaptionField_oQafB {
+  background-color: var(--color-master-background-dark);
+  color: var(--color-master-font-foreground);
+}

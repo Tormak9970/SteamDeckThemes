@@ -1,0 +1,112 @@
+/* ? Secondary window styles */
+.DialogContent, .DialogContentTransition {
+  background: radial-gradient(circle at top left,
+    rgba(var(--color-master-background-orange2_rgb), 0.4) 0%,
+    rgba(var(--color-master-background-orange2_rgb), 0) 60%),
+  var(--color-master-background-orange4);
+}
+
+/* ? background */
+.pagedsettings_PagedSettingsDialog_PageContent_1I3Ni.DesktopUI,
+.DesktopUI .pagedsettings_PagedSettingsDialog_PageContent_1I3Ni {
+  background: var(--color-master-midtone1);
+}
+
+/* ? main content */
+.DialogHeader,
+.DialogSubHeader,
+.settings_SettingsDialogSubHeader_2rK4Y.DesktopUI,
+.DesktopUI .settings_SettingsDialogSubHeader_2rK4Y {
+  color: var(--color-master-font-foreground-bright);
+}
+.gamepaddialog_FieldLabel_3b0U-,
+.notificationssettings_NotificationDescription_1ifM6 {
+  color: var(--color-master-font-foreground-bright);
+  opacity: 0.8;
+}
+.accountsettings_EntryValue_3qIXY,
+.desktopsecuritysettings_EntryValue_1PBuy {
+  color: var(--color-master-font-foreground);
+}
+.DialogBodyText,
+.settings_SettingsDialogBodyText_1RCWD.DesktopUI,
+.DesktopUI .settings_SettingsDialogBodyText_1RCWD,
+.librarysettings_DescriptionText_2NyRK.DesktopUI,
+.DesktopUI .librarysettings_DescriptionText_2NyRK,
+.remoteplaysettings_TableHeader_1HL6K {
+  color: var(--color-master-font-foreground-bright);
+}
+.notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC.DesktopUI,
+.DesktopUI .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC,
+.settings_SettingsDialogDescriptionText_3w92E.DesktopUI,
+.DesktopUI .settings_SettingsDialogDescriptionText_3w92E {
+  color: var(--color-master-font-foreground);
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U- {
+  color: var(--color-master-font-foreground);
+  opacity: 0.7;
+}
+
+/* ? Nav bar icons */
+.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
+  background: var(--color-master-background-bright);
+}
+.DesktopUI .title-area-icon.closeButton:hover, .friendsui-container .title-area-icon.closeButton:hover {
+  background: var(--color-master-warning);
+}
+.title-area-icon .SVGIcon_X_Line line,
+.title-area-icon .SVGIcon_Restore polyline, 
+.title-area-icon .SVGIcon_Restore rect,
+.title-area-icon .SVGIcon_Maximize line, 
+.title-area-icon .SVGIcon_Maximize rect, 
+.title-area-icon .SVGIcon_Minimize line {
+  stroke: var(--color-master-foreground) !important;
+}
+.DesktopUI .title-area-icon:hover .SVGIcon_X_Line line,
+.DesktopUI .title-area-icon:hover .SVGIcon_Restore polyline, 
+.DesktopUI .title-area-icon:hover .SVGIcon_Restore rect, 
+.DesktopUI .title-area-icon:hover .SVGIcon_Maximize line,
+.DesktopUI .title-area-icon:hover .SVGIcon_Maximize rect, 
+.DesktopUI .title-area-icon:hover .SVGIcon_Minimize line {
+  stroke: var(--color-master-foreground-bright) !important;
+}
+
+/* ? Headers */
+.DesktopUI .DialogHeader,
+.friendsui-container .DialogHeader {
+  color: var(--color-master-font-foreground-bright);
+}
+
+/* ? body text */
+.DialogLabel, .DialogLabelStrong {
+  color: var(--color-master-font-foreground);
+}
+.ModalPosition_Content {
+  color: var(--color-master-font-foreground-bright);
+}
+.DialogToggle_Description {
+  color: var(--color-master-font-foreground);
+}
+
+/* ? sidebar */
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+  background: var(--color-master-background);
+}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn .pagedsettings_PageListItem_Icon_U6HcK.DesktopUI,
+.DesktopUI .pagedsettings_PagedSettingsDialog_PageListItem_bkfjn .pagedsettings_PageListItem_Icon_U6HcK {
+  color: var(--color-master-font-foreground-bright);
+}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn {
+  color: var(--color-master-font-foreground-bright);
+}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn.pagedsettings_Active_Myra7 {
+  color: var(--color-master-font-foreground-bright);
+  background-color: var(--color-master-background-bright);
+}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover {
+  color: var(--color-master-font-foreground-bright);
+  background-color: var(--color-master-foreground);
+}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover .pagedsettings_PageListItem_Icon_U6HcK {
+  color: var(--color-master-font-foreground-bright);
+}

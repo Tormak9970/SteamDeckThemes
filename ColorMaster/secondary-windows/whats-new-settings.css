@@ -1,0 +1,11 @@
+/* ? background */
+.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
+  background: radial-gradient(circle at top left,
+    rgba(var(--color-master-background-orange2_rgb), 0.4) 0%,
+    rgba(var(--color-master-background-orange2_rgb), 0) 60%),
+  var(--color-master-background-orange4);
+}
+._DialogInputContainer .libraryhomenewupdates_DialogLabelSoft_3Hf53,
+.DialogLabel.libraryhomenewupdates_DialogLabelSoft_3Hf53 {
+  color: var(--color-master-font-foreground);
+}

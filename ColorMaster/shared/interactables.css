@@ -5,7 +5,9 @@ button.DialogButton,
 .DesktopUI .settings_SettingsDialogButton_3epr8,
 .settings_SettingsDialogFatButton_UqEiV.DesktopUI,
 .DesktopUI .settings_SettingsDialogFatButton_UqEiV,
-.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2 {
+.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2,
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma,
+.appproperties_AppProperties_1FyBL.appproperties_AppProperties_1FyBL:not(.appproperties_GamepadUI_HkTNM) .appproperties_SettingsDialogButton_1KAp5, .appproperties_AppProperties_1FyBL:not(.appproperties_GamepadUI_HkTNM) .appproperties_AppProperties_1FyBL .appproperties_SettingsDialogButton_1KAp5 {
   background: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
@@ -18,7 +20,8 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 }
 button.DialogButton:hover,
 .image_Btn_3YohC.Panel.Focusable:hover,
-.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2:hover {
+.contentmanagement_ActionButton_O_nD7.DialogButton.contentmanagement_ActionButtonActive_19KE2:hover,
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma:hover {
   background: var(--color-master-midtone4);
   color: var(--color-master-font-foreground-bright);
 }
@@ -38,11 +41,18 @@ button.DialogButton.Disabled:hover {
 }
 
 /* ? Dropdowns */
+.dropdownlabel_DropDownLabelDescription_1JPcb {
+  color: var(--color-master-font-foreground);
+}
 ._DialogInputContainer.DialogDropDown {
   background-color: var(--color-master-midtone3);
   color: var(--color-master-font-foreground-bright);
 }
-._DialogInputContainer.DialogDropDown:hover {
+.dropdownlabel_DropDownLabelTitle_uDBZW {
+  color: var(--color-master-font-foreground-bright);
+}
+._DialogInputContainer.DialogDropDown:hover,
+.appproperties_AppProperties_1FyBL.appproperties_AppProperties_1FyBL:not(.appproperties_GamepadUI_HkTNM) .DialogDropDown:hover, .appproperties_AppProperties_1FyBL:not(.appproperties_GamepadUI_HkTNM) .appproperties_AppProperties_1FyBL .DialogDropDown:hover {
   background-color: var(--color-master-midtone4);
   color: var(--color-master-font-foreground-bright);
 }
@@ -108,12 +118,13 @@ button.DialogButton.Disabled:hover {
 }
 
 /* ? Text fields */
-/* TODO ? */
-.DialogTextInputBase, ._DialogInputContainer {
+.DialogTextInputBase,
+._DialogInputContainer {
   color: var(--color-master-font-foreground);
   background-color: var(--color-master-midtone1);
 }
-.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+.DesktopUI .DialogTextInputBase:focus,
+.DialogTextInputBase:focus-within {
   background: var(--color-master-background-dark);
   color: var(--color-master-font-foreground);
 }
@@ -122,4 +133,9 @@ button.DialogButton.Disabled:hover {
 }
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
   stroke: var(--color-master-foreground-bright);
+}
+
+/* ? pin input */
+.segmentedinputs_SegmentedCharacterInput_3PDBF {
+  background: var(--color-master-background);
 }

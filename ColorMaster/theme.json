@@ -7,26 +7,11 @@
   "target": "Desktop",
   "inject": {
     "shared/index.css": [ ".*" ],
-    "shared/tooltips.css": [
-      "SteamLibraryWindow|Steam",
-      "Special Offer.*",
-      "https://store.steampowered.com/marketingmessages.*"
-    ],
+    "shared/tooltips.css": [ ".*" ],
     "shared/navbar.css": [ "SteamLibraryWindow|Steam" ],
-    "shared/nav-menu.css": [
-      "SteamLibraryWindow|Steam",
-      ".*Supernav",
-      ".*Root .*",
-      "Notifications Menu",
-      "Account Menu",
-      "Menu"
-    ],
-    "shared/interactables.css": [
-      "SteamLibraryWindow|Steam",
-      "Special Offer.*",
-      "https://store.steampowered.com/marketingmessages.*",
-      "Steam Settings"
-    ],
+    "shared/nav-menu.css": [ ".*" ],
+    "shared/interactables.css": [ ".*" ],
+    "secondary-windows/index.css": [ ".*" ],
 
     "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
     "library-tab/games-list.css": [ "SteamLibraryWindow|Steam" ],
@@ -46,12 +31,11 @@
       "Special Offer.*",
       "https://store.steampowered.com/marketingmessages.*"
     ],
-    "secondary-windows/game-properties.css": [],
-    "secondary-windows/remove-from-lib.css": [],
+    "secondary-windows/add-nonsteam-game.css": [ "Add Non-Steam Game" ],
+    "secondary-windows/whats-new-settings.css": [ "What's New Settings" ],
     "secondary-windows/logout.css": [],
     "secondary-windows/settings.css": [ "Steam Settings" ],
-    "secondary-windows/notes.css": [],
-    "secondary-windows/screenshots.css": [],
+    "secondary-windows/screenshots-manager.css": [ "Screenshot Manager" ],
     "secondary-windows/change-nickname.css": []
   },
   "dependencies": {

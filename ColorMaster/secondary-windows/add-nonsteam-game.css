@@ -1,0 +1,27 @@
+/* ? Description */
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_DialogBodyText_Xdr35 {
+  color: var(--color-master-font-foreground);
+}
+
+/* ? progams header */
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_Header_3m0Mn {
+  background: var(--color-master-midtone4);
+}
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_Header_3m0Mn .addnonsteamgamedialog_AppName_1kVk1:hover,
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_Header_3m0Mn .addnonsteamgamedialog_ExePath_1LM_T:hover {
+  color: var(--color-master-font-foreground-bright);
+}
+
+/* ? programs body */
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_GameList_1e6tj {
+  background: var(--color-master-midtone1);
+}
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_GameRow_1cXzM:hover {
+  background: var(--color-master-midtone2);
+}
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_GameRow_1cXzM .addnonsteamgamedialog_AppName_1kVk1 {
+  color: var(--color-master-font-foreground-bright);
+}
+.addnonsteamgamedialog_AddNonSteamGameDialogContent_zhaKe .addnonsteamgamedialog_GameRow_1cXzM .addnonsteamgamedialog_ExePath_1LM_T {
+  color: var(--color-master-font-foreground);
+}
