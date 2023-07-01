@@ -66,4 +66,7 @@
   --colored-toggles-desktop-main-color: var(--color-master-highlight) !important;
   --colored-toggles-desktop-main-color_hover: var(--color-master-highlight_hover) !important;
   --colored-toggles-desktop-friends-text-color: var(--color-master-font-foreground-bright) !important;
+
+  --skinny-header-icon-color: var(--color-master-font-foreground) !important;
+  --skinny-header-icon-hover-color: var(--color-master-font-foreground-bright) !important;
 }
