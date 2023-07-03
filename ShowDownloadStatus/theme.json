@@ -1,20 +1,26 @@
 {
   "name": "Show Download Status",
-  "version": "v1.2",
+  "version": "v1.3.0",
   "author": "Tormak#6639",
   "description": "This theme adds an icon to the library and homepage view indicating if a game is installed or not.",
   "manifest_version": 5,
   "inject": {},
   "patches": {
-    "Small Icons": {
-      "type": "checkbox",
-      "default": "No",
+    "Varients": {
+      "type": "dropdown",
+      "default": "Original",
       "values": {
-        "Yes": {
+        "Original": {
+          "varients/original.css": [ "SP", "MainMenu", "QuickAccess" ]
+        },
+        "Small": {
           "varients/small.css": [ "SP", "MainMenu", "QuickAccess" ]
         },
-        "No": {
-          "varients/original.css": [ "SP", "MainMenu", "QuickAccess" ]
+        "Circular": {
+          "varients/circle.css": [ "SP", "MainMenu", "QuickAccess" ]
+        },
+        "Circlular (no uninstall)": {
+          "varients/circleNoUninstall.css": [ "SP", "MainMenu", "QuickAccess" ]
         }
       }
     }
