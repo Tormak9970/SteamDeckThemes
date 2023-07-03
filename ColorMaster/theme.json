@@ -33,7 +33,6 @@
     ],
     "secondary-windows/add-nonsteam-game.css": [ "Add Non-Steam Game" ],
     "secondary-windows/whats-new-settings.css": [ "What's New Settings" ],
-    "secondary-windows/logout.css": [],
     "secondary-windows/settings.css": [ "Steam Settings" ],
     "secondary-windows/screenshots-manager.css": [ "Screenshot Manager" ],
     "secondary-windows/change-nickname.css": []
