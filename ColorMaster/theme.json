@@ -2,30 +2,35 @@
   "name": "Color Master",
   "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
-  "version": "v1.6.0",
+  "version": "v1.6.1",
   "manifest_version": 7,
   "target": "Desktop",
+  "tabs": {
+    "default": [ "SteamLibraryWindow|Steam" ],
+    "ctx-menus": [ "desktop", "desktopoverlay", "desktopcontextmenu" ],
+    "modals": [ "desktop", "desktopoverlay" ]
+  },
   "inject": {
     "shared/index.css": [ ".*" ],
     "shared/tooltips.css": [ ".*" ],
-    "shared/navbar.css": [ "SteamLibraryWindow|Steam" ],
-    "shared/nav-menu.css": [ ".*" ],
+    "shared/navbar.css": [],
+    "shared/nav-menu.css": [ "ctx-menus" ],
     "shared/interactables.css": [ ".*" ],
-    "secondary-windows/index.css": [ ".*" ],
+    "secondary-windows/index.css": [ "modals" ],
 
-    "library-tab/index.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/games-list.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/game-shelf.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/game-page.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/collections.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/soundtrack.css": [ "SteamLibraryWindow|Steam" ],
-    "library-tab/footer.css": [ "SteamLibraryWindow|Steam" ],
+    "library-tab/index.css": [],
+    "library-tab/games-list.css": [],
+    "library-tab/game-shelf.css": [],
+    "library-tab/game-page.css": [],
+    "library-tab/collections.css": [],
+    "library-tab/soundtrack.css": [],
+    "library-tab/footer.css": [],
 
-    "downloads-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+    "downloads-tab/index.css": [],
 
-    "store-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+    "store-tab/index.css": [],
 
-    "community-tab/index.css": [ "SteamLibraryWindow|Steam" ],
+    "community-tab/index.css": [],
 
     "secondary-windows/special-offers.css": [
       "Special Offer.*",
@@ -34,8 +39,7 @@
     "secondary-windows/add-nonsteam-game.css": [ "Add Non-Steam Game" ],
     "secondary-windows/whats-new-settings.css": [ "What's New Settings" ],
     "secondary-windows/settings.css": [ "Steam Settings" ],
-    "secondary-windows/screenshots-manager.css": [ "Screenshot Manager" ],
-    "secondary-windows/change-nickname.css": []
+    "secondary-windows/screenshots-manager.css": [ "Screenshot Manager" ]
   },
   "dependencies": {
     "Desktop Colored Toggles": {}
