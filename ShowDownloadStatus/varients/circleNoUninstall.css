@@ -10,8 +10,8 @@
   font-size: 0; /* ? No idea why this affects sizing like it does but whatever */
   
   top: unset;
-  bottom: 5px;
-  left: 5px;
+  bottom: 2%;
+  left: 5%;
 
   opacity: 0;
 
@@ -21,6 +21,10 @@
   border: 3px solid #0e141b;
   box-sizing: border-box;
   transition: all .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+}
+
+.appportrait_FeaturedCapsule_xp7A-:only-child:before {
+  left: 1.5%;
 }
 
 .appportrait_InRecentGames_biTV-.gpfocuswithin:only-child::before,
