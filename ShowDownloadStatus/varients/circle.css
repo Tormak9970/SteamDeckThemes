@@ -24,7 +24,7 @@
   transition: all .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
 }
 
-.appportrait_FeaturedCapsule_xp7A-:only-child:before {
+.appportrait_FeaturedCapsule_xp7A-:only-child::before {
   left: 1.5%;
 }
 
@@ -38,8 +38,8 @@
   height: 24px;
   width: 24px;
 
-  bottom: 5px;
-  left: 5px;
+  bottom: 2%;
+  left: 5%;
 
   opacity: 0;
 
