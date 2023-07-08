@@ -1,30 +1,31 @@
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InCollection"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_InCollection"]:hover:only-child:before,
-div[class*="appportrait_InRecentGames"]:hover:only-child:before {
+.appportrait_InRecentGames_biTV-:only-child::before,
+.appportrait_InCollection_3ANru:only-child::before {
   content: url("data:image/svg+xml; charset=utf8, %0A%20%20%20%20%3Csvg%20viewBox%3D%220%200%2036%2036%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A%2032px%3B%20height%3A%2032px%3B%22%3E%0A%20%20%20%20%20%20%3CforeignObject%20x%3D%225%22%20y%3D%225%22%20width%3D%2226%22%20height%3D%2226%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Csvg%20style%3D%22width%3A%2026px%3B%20height%3A%2026px%3B%20color%3A%20%230e141b%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2036%2036%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2033V3L32%2018L6%2033Z%22%20fill%3D%22currentColor%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%20%20%3C%2FforeignObject%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20%20%20");
   position: absolute;
   z-index: 100;
 
-  height: 17px;
-  width: 16px;
+  height: 24px;
+  width: 24px;
   padding: 1.5px 1px 0 2px;
   font-size: 0; /* ? No idea why this affects sizing like it does but whatever */
   
   top: unset;
-  bottom: 2%;
-  left: 5%;
+  bottom: 5px;
+  left: 5px;
 
-  opacity: 1;
+  opacity: 0;
 
   background-color: #59BF40;
 
   border-radius: 16px;
   border: 3px solid #0e141b;
+  box-sizing: border-box;
+  transition: all .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
 }
 
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_Landscape"]:hover:only-child:before {
-  left: 1.5%;
+.appportrait_InRecentGames_biTV-.gpfocuswithin:only-child::before,
+.appportrait_InCollection_3ANru.gpfocuswithin:only-child::before,
+.appportrait_InRecentGames_biTV-:hover:only-child::before,
+.appportrait_InCollection_3ANru:hover:only-child::before  {
+  opacity: 1;
 }
