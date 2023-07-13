@@ -4,23 +4,77 @@
   "author": "Tormak#6639",
   "description": "This theme adds an icon to the library and homepage view indicating if a game is installed or not.",
   "manifest_version": 5,
-  "inject": {},
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
   "patches": {
-    "Varients": {
+    "Style": {
       "type": "dropdown",
       "default": "Original",
       "values": {
-        "Original": {
-          "varients/original.css": [ "SP", "MainMenu", "QuickAccess" ]
-        },
+        "Original": {},
         "Small": {
-          "varients/small.css": [ "SP", "MainMenu", "QuickAccess" ]
+          "styles/small.css": [
+            "SP"
+          ]
         },
         "Circular": {
-          "varients/circle.css": [ "SP", "MainMenu", "QuickAccess" ]
+          "styles/circle.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Visibility": {
+      "type": "slider",
+      "default": "100%",
+      "values": {
+        "25%": {
+          "--sds-icon-opacity": [
+            "0.25",
+            "SP"
+          ]
         },
-        "Circlular (no uninstall)": {
-          "varients/circleNoUninstall.css": [ "SP", "MainMenu", "QuickAccess" ]
+        "50%": {
+          "--sds-icon-opacity": [
+            "0.5",
+            "SP"
+          ]
+        },
+        "75%": {
+          "--sds-icon-opacity": [
+            "0.75",
+            "SP"
+          ]
+        },
+        "100%": {}
+      }
+    },
+    "Show Installed": {
+      "type": "checkbox",
+      "default": "Yes",
+      "values": {
+        "Yes": {},
+        "No": {
+          "--sds-installed-display": [
+            "none",
+            "SP"
+          ]
+        }
+      }
+    },
+    "Show Uninstalled": {
+      "type": "checkbox",
+      "default": "Yes",
+      "values": {
+        "Yes": {},
+        "No": {
+          "--sds-uninstalled-display": [
+            "none",
+            "SP"
+          ]
         }
       }
     }
