@@ -17,11 +17,7 @@
 
 div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InCollection"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
 div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_InCollection"]:hover:only-child:before,
-div[class*="appportrait_InRecentGames"]:hover:only-child:before {
-  /* added hover above from pending pull request, waiting for merge */
-  
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before {  
   content: var(--sds-installed-icon);
   
   position: absolute;
@@ -46,10 +42,7 @@ div[class*="appportrait_InRecentGames"]:hover:only-child:before {
   display: var(--sds-installed-display);
 }
 
-div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
-div[class*="appportrait_Landscape"]:hover:only-child:before {
-  /* added hover above from pending pull request, waiting for merge */
-  
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before {  
   left: 1.5%;
 }
 
