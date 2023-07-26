@@ -1,0 +1,233 @@
+{
+  "name": "Color Master BPM",
+  "description": "Full control over your Steam BPM's colors",
+  "author": "Tormak",
+  "version": "v1..0.0",
+  "manifest_version": 7,
+  "target": "system-wide",
+  "tabs": {
+    "default": [ "SteamLibraryWindow|Steam" ],
+    "ctx-menus": [ "desktop", "desktopoverlay", "desktopcontextmenu" ],
+    "modals": [ "desktop", "desktopoverlay" ]
+  },
+  "inject": {
+    "shared/index.css": [ ".*" ],
+    "shared/tooltips.css": [ ".*" ],
+    "shared/navbar.css": [],
+    "shared/nav-menu.css": [ "ctx-menus" ],
+    "shared/interactables.css": [ ".*" ],
+    "secondary-windows/index.css": [ "modals" ],
+
+    "library-tab/index.css": [],
+    "library-tab/games-list.css": [],
+    "library-tab/game-shelf.css": [],
+    "library-tab/game-page.css": [],
+    "library-tab/collections.css": [],
+    "library-tab/soundtrack.css": [],
+    "library-tab/footer.css": [],
+
+    "downloads-tab/index.css": [],
+
+    "store-tab/index.css": [],
+
+    "community-tab/index.css": [],
+
+    "secondary-windows/special-offers.css": [
+      "Special Offer.*",
+      "https://store.steampowered.com/marketingmessages.*"
+    ],
+    "secondary-windows/add-nonsteam-game.css": [ "Add Non-Steam Game" ],
+    "secondary-windows/whats-new-settings.css": [ "What's New Settings" ],
+    "secondary-windows/settings.css": [ "Steam Settings" ],
+    "secondary-windows/screenshots-manager.css": [ "Screenshot Manager" ]
+  },
+  "dependencies": {
+    "Desktop Colored Toggles": {}
+  },
+  "patches": {
+    "Background": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Background Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#121212",
+          "css_variable": "bpm-color-master-background-dark",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Background",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#1c1b19",
+          "css_variable": "bpm-color-master-background",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Background Bright",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#918175",
+          "css_variable": "bpm-color-master-background-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Foreground",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#BAA67F",
+          "css_variable": "bpm-color-master-foreground",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Foreground Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#FCE8C3",
+          "css_variable": "bpm-color-master-foreground-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#262626",
+          "css_variable": "bpm-color-master-midtone1",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#444444",
+          "css_variable": "bpm-color-master-midtone2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 3",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#4E4E4E",
+          "css_variable": "bpm-color-master-midtone3",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 4",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#767676",
+          "css_variable": "bpm-color-master-midtone4",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 5",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#949494",
+          "css_variable": "bpm-color-master-midtone5",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2C78BF",
+          "css_variable": "bpm-color-master-highlight",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 1 Hover",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2c89bf",
+          "css_variable": "bpm-color-master-highlight_hover",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Highlight 2",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#98BC37",
+          "css_variable": "bpm-color-master-highlight2",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Warning",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#F75341",
+          "css_variable": "bpm-color-master-warning",
+          "tabs": [ ".*" ]
+        }
+      ]
+    },
+    "Text": {
+      "type": "none",
+      "values": {
+        "_": {}
+      },
+      "components": [
+        {
+          "name": "Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#BAA67F",
+          "css_variable": "bpm-color-master-font-foreground",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Bright Light",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#FCE8C3",
+          "css_variable": "bpm-color-master-font-foreground-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#1C1B19",
+          "css_variable": "bpm-color-master-font-background",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Bright Dark",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#918175",
+          "css_variable": "bpm-color-master-font-background-bright",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 1",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#262626",
+          "css_variable": "bpm-color-master-font-midtone1",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 4",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#767676",
+          "css_variable": "bpm-color-master-font-midtone4",
+          "tabs": [ ".*" ]
+        },
+        {
+          "name": "Midtone 5",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#949494",
+          "css_variable": "bpm-color-master-font-midtone5",
+          "tabs": [ ".*" ]
+        }
+      ]
+    }
+  }
+}
