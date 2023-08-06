@@ -4,7 +4,7 @@
   "author": "Tormak",
   "target": "System-Wide",
   "description": "This theme adds flare to the footer!",
-  "manifest_version": 6,
+  "manifest_version": 8,
   "inject": {
     "shared.css": [ "QuickAccess", "SP", "MainMenu" ]
   },

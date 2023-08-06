@@ -4,7 +4,7 @@
   "author": "Tormak",
   "target": "Keyboard",
   "description": "This theme gives you full control over the colors of your steamdeck's keyboard!",
-  "manifest_version": 3,
+  "manifest_version": 8,
   "inject": {
     "shared.css": [
       "QuickAccess",
@@ -26,7 +26,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#23262E",
-          "css_variable": "SDU-keyboard-background",
+          "css_variable": "--SDU-keyboard-background",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -38,7 +38,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-icon-color",
+          "css_variable": "--SDU-icon-color",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -50,7 +50,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#0e141b",
-          "css_variable": "SDU-icon-color__selected",
+          "css_variable": "--SDU-icon-color__selected",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -62,7 +62,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#1a9fff",
-          "css_variable": "SDU-key-toggle-background",
+          "css_variable": "--SDU-key-toggle-background",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -74,7 +74,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-key-toggle-color",
+          "css_variable": "--SDU-key-toggle-color",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -96,7 +96,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#0e141b",
-          "css_variable": "SDU-base-key-background",
+          "css_variable": "--SDU-base-key-background",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -108,7 +108,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-base-key-color",
+          "css_variable": "--SDU-base-key-color",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -120,7 +120,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-base-key-background__selected",
+          "css_variable": "--SDU-base-key-background__selected",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -132,7 +132,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#0e141b",
-          "css_variable": "SDU-base-key-color__selected",
+          "css_variable": "--SDU-base-key-color__selected",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -154,7 +154,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#000000",
-          "css_variable": "SDU-function-key-background",
+          "css_variable": "--SDU-function-key-background",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -166,7 +166,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-function-key-color",
+          "css_variable": "--SDU-function-key-color",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -178,7 +178,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#ffffff",
-          "css_variable": "SDU-function-key-background__selected",
+          "css_variable": "--SDU-function-key-background__selected",
           "tabs": [
             "QuickAccess",
             "SP",
@@ -190,7 +190,7 @@
           "type": "color-picker",
           "on": "Yes",
           "default": "#000000",
-          "css_variable": "SDU-function-key-color__selected",
+          "css_variable": "--SDU-function-key-color__selected",
           "tabs": [
             "QuickAccess",
             "SP",

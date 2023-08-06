@@ -7,7 +7,7 @@
   "inject": {
     "shared.css": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game", ".*Settings" ]
   },
-  "manifest_version": 6,
+  "manifest_version": 8,
   "patches": {
     "Theme Color": {
       "default": "Orange",
@@ -81,7 +81,7 @@
           "type": "color-picker",
           "on": "Custom",
           "default": "#f00",
-          "css_variable": "colored-toggles-main-color",
+          "css_variable": "--colored-toggles-main-color",
           "tabs": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game", ".*Settings" ]
         },
         {
@@ -89,7 +89,7 @@
           "type": "color-picker",
           "on": "Custom",
           "default": "#ff7b00",
-          "css_variable": "colored-toggles-main-color_hover",
+          "css_variable": "--colored-toggles-main-color_hover",
           "tabs": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game", ".*Settings" ]
         },
         {
@@ -97,7 +97,7 @@
           "type": "color-picker",
           "on": "Custom",
           "default": "#000",
-          "css_variable": "colored-toggles-friends-text-color",
+          "css_variable": "--colored-toggles-friends-text-color",
           "tabs": [ "SteamLibraryWindow|Steam", "Properties - .*", "Add Non-Steam Game", ".*Settings" ]
         }
       ]

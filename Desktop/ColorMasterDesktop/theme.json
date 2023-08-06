@@ -3,7 +3,7 @@
   "description": "Full control over your Steam Client's colors",
   "author": "Tormak",
   "version": "v1.6.1",
-  "manifest_version": 7,
+  "manifest_version": 8,
   "target": "Desktop",
   "tabs": {
     "default": [ "SteamLibraryWindow|Steam" ],
@@ -56,7 +56,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#121212",
-          "css_variable": "color-master-background-dark",
+          "css_variable": "--color-master-background-dark",
           "tabs": [ ".*" ]
         },
         {
@@ -64,7 +64,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#1c1b19",
-          "css_variable": "color-master-background",
+          "css_variable": "--color-master-background",
           "tabs": [ ".*" ]
         },
         {
@@ -72,7 +72,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#918175",
-          "css_variable": "color-master-background-bright",
+          "css_variable": "--color-master-background-bright",
           "tabs": [ ".*" ]
         },
         {
@@ -80,7 +80,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#BAA67F",
-          "css_variable": "color-master-foreground",
+          "css_variable": "--color-master-foreground",
           "tabs": [ ".*" ]
         },
         {
@@ -88,7 +88,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#FCE8C3",
-          "css_variable": "color-master-foreground-bright",
+          "css_variable": "--color-master-foreground-bright",
           "tabs": [ ".*" ]
         },
         {
@@ -96,7 +96,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#262626",
-          "css_variable": "color-master-midtone1",
+          "css_variable": "--color-master-midtone1",
           "tabs": [ ".*" ]
         },
         {
@@ -104,7 +104,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#444444",
-          "css_variable": "color-master-midtone2",
+          "css_variable": "--color-master-midtone2",
           "tabs": [ ".*" ]
         },
         {
@@ -112,7 +112,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#4E4E4E",
-          "css_variable": "color-master-midtone3",
+          "css_variable": "--color-master-midtone3",
           "tabs": [ ".*" ]
         },
         {
@@ -120,7 +120,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#767676",
-          "css_variable": "color-master-midtone4",
+          "css_variable": "--color-master-midtone4",
           "tabs": [ ".*" ]
         },
         {
@@ -128,7 +128,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#949494",
-          "css_variable": "color-master-midtone5",
+          "css_variable": "--color-master-midtone5",
           "tabs": [ ".*" ]
         },
         {
@@ -136,7 +136,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#2C78BF",
-          "css_variable": "color-master-highlight",
+          "css_variable": "--color-master-highlight",
           "tabs": [ ".*" ]
         },
         {
@@ -144,7 +144,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#2c89bf",
-          "css_variable": "color-master-highlight_hover",
+          "css_variable": "--color-master-highlight_hover",
           "tabs": [ ".*" ]
         },
         {
@@ -152,7 +152,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#98BC37",
-          "css_variable": "color-master-highlight2",
+          "css_variable": "--color-master-highlight2",
           "tabs": [ ".*" ]
         },
         {
@@ -160,7 +160,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#F75341",
-          "css_variable": "color-master-warning",
+          "css_variable": "--color-master-warning",
           "tabs": [ ".*" ]
         }
       ]
@@ -176,7 +176,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#BAA67F",
-          "css_variable": "color-master-font-foreground",
+          "css_variable": "--color-master-font-foreground",
           "tabs": [ ".*" ]
         },
         {
@@ -184,7 +184,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#FCE8C3",
-          "css_variable": "color-master-font-foreground-bright",
+          "css_variable": "--color-master-font-foreground-bright",
           "tabs": [ ".*" ]
         },
         {
@@ -192,7 +192,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#1C1B19",
-          "css_variable": "color-master-font-background",
+          "css_variable": "--color-master-font-background",
           "tabs": [ ".*" ]
         },
         {
@@ -200,7 +200,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#918175",
-          "css_variable": "color-master-font-background-bright",
+          "css_variable": "--color-master-font-background-bright",
           "tabs": [ ".*" ]
         },
         {
@@ -208,7 +208,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#262626",
-          "css_variable": "color-master-font-midtone1",
+          "css_variable": "--color-master-font-midtone1",
           "tabs": [ ".*" ]
         },
         {
@@ -216,7 +216,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#767676",
-          "css_variable": "color-master-font-midtone4",
+          "css_variable": "--color-master-font-midtone4",
           "tabs": [ ".*" ]
         },
         {
@@ -224,7 +224,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#949494",
-          "css_variable": "color-master-font-midtone5",
+          "css_variable": "--color-master-font-midtone5",
           "tabs": [ ".*" ]
         }
       ]
@@ -240,7 +240,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#cfc9c1",
-          "css_variable": "color-master-background2",
+          "css_variable": "--color-master-background2",
           "tabs": [ ".*" ]
         },
         {
@@ -248,7 +248,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#42392b",
-          "css_variable": "color-master-background3",
+          "css_variable": "--color-master-background3",
           "tabs": [ ".*" ]
         },
         {
@@ -256,7 +256,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#2f2a24",
-          "css_variable": "color-master-background4",
+          "css_variable": "--color-master-background4",
           "tabs": [ ".*" ]
         },
         {
@@ -264,7 +264,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#50473e",
-          "css_variable": "color-master-background5",
+          "css_variable": "--color-master-background5",
           "tabs": [ ".*" ]
         },
         {
@@ -272,7 +272,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#7f756b",
-          "css_variable": "color-master-background6",
+          "css_variable": "--color-master-background6",
           "tabs": [ ".*" ]
         }
       ]
@@ -288,7 +288,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#776255",
-          "css_variable": "color-master-background-orange",
+          "css_variable": "--color-master-background-orange",
           "tabs": [ ".*" ]
         },
         {
@@ -296,7 +296,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#5d514c",
-          "css_variable": "color-master-background-orang2",
+          "css_variable": "--color-master-background-orang2",
           "tabs": [ ".*" ]
         },
         {
@@ -304,7 +304,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#39322d",
-          "css_variable": "color-master-background-orange3",
+          "css_variable": "--color-master-background-orange3",
           "tabs": [ ".*" ]
         }
       ]
@@ -320,7 +320,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#695e54",
-          "css_variable": "color-master-gp-grad-stop1",
+          "css_variable": "--color-master-gp-grad-stop1",
           "tabs": [ ".*" ]
         },
         {
@@ -328,7 +328,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#b89c7f",
-          "css_variable": "color-master-gp-grad-stop2",
+          "css_variable": "--color-master-gp-grad-stop2",
           "tabs": [ ".*" ]
         },
         {
@@ -336,7 +336,7 @@
           "type": "color-picker",
           "on": "_",
           "default": "#ccb399",
-          "css_variable": "color-master-gp-grad-stop3",
+          "css_variable": "--color-master-gp-grad-stop3",
           "tabs": [ ".*" ]
         }
       ]
