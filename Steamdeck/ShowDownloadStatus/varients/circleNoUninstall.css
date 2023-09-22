@@ -27,9 +27,11 @@
   left: 1.5%;
 }
 
-.appportrait_InRecentGames_biTV-.gpfocuswithin:only-child::before,
-.appportrait_InCollection_3ANru.gpfocuswithin:only-child::before,
-.appportrait_InRecentGames_biTV-:hover:only-child::before,
-.appportrait_InCollection_3ANru:hover:only-child::before  {
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus:only-child::before,
+.appportrait_LibraryItemBox_WYgDg:hover:only-child::before {
   opacity: 1;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
+  display: none;
 }
