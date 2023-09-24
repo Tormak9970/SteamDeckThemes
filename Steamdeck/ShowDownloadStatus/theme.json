@@ -4,7 +4,7 @@
   "version": "v1.4.1",
   "author": "Tormak & RasitAyaz",
   "description": "This theme adds an icon to the library and homepage view indicating if a game is installed or not.",
-  "manifest_version": 8,
+  "manifest_version": 9,
   "target": "System-Wide",
   "inject": {},
   "patches": {
