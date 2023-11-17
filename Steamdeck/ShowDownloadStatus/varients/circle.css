@@ -1,5 +1,5 @@
-.appportrait_InRecentGames_biTV-:only-child::before,
-.appportrait_InCollection_3ANru:only-child::before {
+.appportrait_InRecentGames_biTV- div[class*="appportrait_LibraryItemIcons"]:only-child:before,
+.appportrait_InCollection_3ANru div[class*="appportrait_LibraryItemIcons"]:only-child:before {
   content: url("data:image/svg+xml; charset=utf8, %0A%20%20%20%20%3Csvg%20viewBox%3D%220%200%2036%2036%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A%2032px%3B%20height%3A%2032px%3B%22%3E%0A%20%20%20%20%20%20%3CforeignObject%20x%3D%225%22%20y%3D%225%22%20width%3D%2226%22%20height%3D%2226%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Csvg%20style%3D%22width%3A%2026px%3B%20height%3A%2026px%3B%20color%3A%20%230e141b%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2036%2036%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2033V3L32%2018L6%2033Z%22%20fill%3D%22currentColor%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%20%20%3C%2FforeignObject%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20%20%20");
   position: absolute;
   z-index: 100;
@@ -12,7 +12,7 @@
   
   top: unset;
   bottom: 2%;
-  left: 5%;
+  left: 3%;
 
   opacity: 0;
 
@@ -25,7 +25,7 @@
 }
 
 .appportrait_FeaturedCapsule_xp7A-:only-child::before {
-  left: 1.5%;
+  left: 1%;
 }
 
 .appportrait_InRecentGames_biTV- .appportrait_UninstalledIcon_8YrRm,
@@ -39,7 +39,7 @@
   width: 24px;
 
   bottom: 2%;
-  left: 5%;
+  left: 3%;
 
   opacity: 0;
 
@@ -51,9 +51,13 @@
   transition: all .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
 }
 
-.appportrait_LibraryItemBox_WYgDg.Focusable:focus:only-child::before,
-.appportrait_LibraryItemBox_WYgDg:hover:only-child::before,
-.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_UninstalledIcon_8YrRm,
-.appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm {
+.appportrait_InRecentGames_biTV-.gpfocuswithin div[class*="appportrait_LibraryItemIcons"]:only-child:before,
+.appportrait_InCollection_3ANru.gpfocuswithin div[class*="appportrait_LibraryItemIcons"]:only-child:before,
+.appportrait_InRecentGames_biTV-:hover:only-child::before,
+.appportrait_InCollection_3ANru:hover:only-child::before,
+.appportrait_InRecentGames_biTV-.gpfocuswithin .appportrait_UninstalledIcon_8YrRm,
+.appportrait_InCollection_3ANru.gpfocuswithin .appportrait_UninstalledIcon_8YrRm,
+.appportrait_InRecentGames_biTV-:hover .appportrait_UninstalledIcon_8YrRm,
+.appportrait_InCollection_3ANru:hover .appportrait_UninstalledIcon_8YrRm {
   opacity: 1;
 }
